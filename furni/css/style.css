@@ -52,12 +52,12 @@ a.more {
 .custom-navbar .navbar-brand img {
   transform: scale(2);
   width: 60px;
-  padding-right: 15px;
+  /* padding-right: 15px; */
 }
 
-.custom-navbar .custom-navbar-nav {
-  margin-left: 18px;
-}
+  .custom-navbar .custom-navbar-nav {
+    margin-left: 18px;
+  }
 
 .custom-navbar .navbar-brand>span {
   opacity: .4;
@@ -152,6 +152,9 @@ a.more {
 .hero {
   /* background: #3b5d50; */
   background: #fff;
+  /* background-image: url("https://wingscera.com/img/compressed-images/2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */ 
   padding: calc(4rem - 30px) 0 0rem 0;
 }
 
@@ -1053,4 +1056,30 @@ textarea {
   height: 50px;
   border-radius: 50%;
   background: rgba(59, 93, 80, 0.2);
+}
+
+
+.container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+  position: relative;
+}
+.p-0 {
+  padding: 0 !important;
+}
+.container, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
+  width: 100%;
+  padding-right: var(--freya-gutter-x, 1rem);
+  padding-left: var(--freya-gutter-x, 1rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+footer {
+  background-color: #151617;
+  /* background-color: #161820; */
+    color: #fff;
+  padding-top: 50px;
+  overflow: hidden;
+}
+footer p, footer a{
+   text-decoration: none;
+   color: #fff;
 }
