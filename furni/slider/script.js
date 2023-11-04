@@ -332,14 +332,14 @@
 						url: url,
 						dataType: 'jsonp',
 						error: function (resp, text) {
-							$output.html('Server error: ' + text);
+							$output.php('Server error: ' + text);
 
 							setTimeout(function () {
 								$output.removeClass("active");
 							}, 4000);
 						},
 						success: function (resp) {
-							$output.html(resp.Message).addClass('active');
+							$output.php(resp.Message).addClass('active');
 
 							setTimeout(function () {
 								$output.removeClass("active");
@@ -350,7 +350,7 @@
 							if (isNoviBuilder || !isValidated($this.find('[data-constraints]')))
 								return false;
 
-							$output.html('Submitting...').addClass('active');
+							$output.php('Submitting...').addClass('active');
 						}
 					});
 
@@ -422,7 +422,7 @@
 								.done(function (responceCode) {
 									if (responceCode !== 'CPT000') {
 										if (output.hasClass("snackbars")) {
-											output.html('<p><span class="icon text-middle mdi mdi-check icon-xxs"></span><span>' + captchaMsg[responceCode] + '</span></p>')
+											output.php('<p><span class="icon text-middle mdi mdi-check icon-xxs"></span><span>' + captchaMsg[responceCode] + '</span></p>')
 
 											setTimeout(function () {
 												output.removeClass("active");
@@ -430,7 +430,7 @@
 
 											captchaFlag = false;
 										} else {
-											output.html(captchaMsg[responceCode]);
+											output.php(captchaMsg[responceCode]);
 										}
 
 										output.addClass("active");
@@ -445,7 +445,7 @@
 							form.addClass('form-in-process');
 
 							if (output.hasClass("snackbars")) {
-								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sending</span></p>');
+								output.php('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sending</span></p>');
 								output.addClass("active");
 							}
 						} else {
@@ -487,13 +487,13 @@
 
 						if (result === "MF000") {
 							if (output.hasClass("snackbars")) {
-								output.html('<p><span class="icon text-middle mdi mdi-check icon-xxs"></span><span>' + msg[result] + '</span></p>');
+								output.php('<p><span class="icon text-middle mdi mdi-check icon-xxs"></span><span>' + msg[result] + '</span></p>');
 							} else {
 								output.addClass("active success");
 							}
 						} else {
 							if (output.hasClass("snackbars")) {
-								output.html(' <p class="snackbars-left"><span class="icon icon-xxs mdi mdi-alert-outline text-middle"></span><span>' + msg[result] + '</span></p>');
+								output.php(' <p class="snackbars-left"><span class="icon icon-xxs mdi mdi-alert-outline text-middle"></span><span>' + msg[result] + '</span></p>');
 							} else {
 								output.addClass("active error");
 							}
