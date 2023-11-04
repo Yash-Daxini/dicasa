@@ -11,9 +11,40 @@
     <link href="furni/css/tiny-slider.css" rel="stylesheet" />
     <link href="furni/css/style.css" rel="stylesheet" />
     <title>Dicasa Ceramic - Packing-Details</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        border: 1px solid #025866;
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      tr:hover {
+        background-color: #d2fff5;
+      }
+      .light {
+        background-color: #effdf5;
+        text-align: center;
+        font-weight: 700;
+        font-family: "Your Custom Font", sans-serif;
+        color: #025866;
+      }
+    </style>
   </head>
   <body>
-
     <nav
       class="custom-navbar justify-content-sm-between navbar navbar-expand-md"
       arial-label="Furni navigation bar"
@@ -88,7 +119,7 @@
         height: 60vh;
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        filter: brightness(0.90);
+        filter: brightness(0.9);
       "
     >
       <div><h1 class="text-white">Packing-Details</h1></div>
@@ -96,7 +127,10 @@
 
     <div class="container text-center table-responsive my-5">
       <h3></h3>
-      <table class="table table-striped table-hover table-responsive" id="customers">
+      <table
+        class="table table-striped table-hover table-responsive"
+        id="customers"
+      >
         <thead>
           <tr class="table-header">
             <th class="" id="" colspan="">
