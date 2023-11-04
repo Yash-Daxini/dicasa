@@ -37,13 +37,6 @@ a:hover {
 a.more {
   font-weight: 600;
 }
-
-.custom-navbar {
-  background: #fff !important;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .custom-navbar .navbar-brand {
   font-size: 32px;
   font-weight: 600;
