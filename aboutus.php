@@ -10,10 +10,11 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
 
 <div class="hero d-flex justify-content-center align-items-center" style="
-      background: url('furni/images/GENESIS STATUARIO Preview.jpg');
+      /* background: url('furni/images/GENESIS STATUARIO Preview.jpg'); */
+      background: url('furni/images/P8.jpg');
       width: 100%;
-      height: 60vh;
-      background-size: 100% 100%;
+      height: 70vh;
+      background-size: 100% auto;
       background-repeat: no-repeat;
       filter: brightness(0.90);
     ">

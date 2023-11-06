@@ -37,6 +37,7 @@ a:hover {
 a.more {
   font-weight: 600;
 }
+
 .custom-navbar .navbar-brand {
   font-size: 32px;
   font-weight: 600;
@@ -49,9 +50,9 @@ a.more {
   /* padding-right: 15px; */
 }
 
-  .custom-navbar .custom-navbar-nav {
-    margin-left: 18px;
-  }
+.custom-navbar .custom-navbar-nav {
+  margin-left: 18px;
+}
 
 .custom-navbar .navbar-brand>span {
   opacity: .4;
@@ -142,29 +143,33 @@ a.more {
   margin-right: 15px;
   margin-left: 20px;
 }
+
 .hr {
   border: 0;
-  clear:both;
-  display:block;
-  width: 96%;               
-  background-color:#000;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: #000;
   height: 1px;
 }
-.testimonial{
+
+.testimonial {
   transition: .3s;
   transform: scaleZ(1);
 }
-.testimonial:hover{
+
+.testimonial:hover {
   border: 2px solid #000;
   border-radius: 10px;
   transform: scaleZ(2);
 }
+
 .hero {
   /* background: #3b5d50; */
   background: #fff;
   /* background-image: url("https://wingscera.com/img/compressed-images/2.jpg");
   background-size: cover;
-  background-repeat: no-repeat; */ 
+  background-repeat: no-repeat; */
   padding: calc(4rem - 30px) 0 0rem 0;
 }
 
@@ -323,17 +328,19 @@ a.more {
 .section-title {
   color: #2f2f2f;
 }
-.productSection .productImages{
+.productSection .productImages {
   filter: blur(0.1px);
   /* filter: grayscale(100%); */
   border-radius: 20%;
   transition: 0.5s;
 }
-.productSection .productImages:hover{
+
+.productSection .productImages:hover {
   filter: blur(0px);
   border-radius: 0%;
   /* filter: grayscale(0%); */
 }
+
 .product-section {
   padding: 7rem 0;
 }
@@ -1080,27 +1087,42 @@ textarea {
 }
 
 
-.container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
   position: relative;
 }
+
 .p-0 {
   padding: 0 !important;
 }
-.container, .container-fluid, .container-xl, .container-lg, .container-md, .container-sm {
+
+.container,
+.container-fluid,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
   width: 100%;
   padding-right: var(--freya-gutter-x, 1rem);
   padding-left: var(--freya-gutter-x, 1rem);
   margin-right: auto;
   margin-left: auto;
 }
+
 footer {
   background-color: #151617;
   /* background-color: #161820; */
-    color: #fff;
+  color: #fff;
   padding-top: 50px;
   overflow: hidden;
 }
-footer p, footer a{
-   text-decoration: none;
-   color: #fff;
+
+footer p,
+footer a {
+  text-decoration: none;
+  color: #fff;
 }

@@ -9,27 +9,16 @@ $Title = "Dicasa Ceramic - Contact Us";
 include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
 
-<div class="hero">
-  <div class="container">
-    <div class="row justify-content-between">
-      <div class="col-lg-5">
-        <div class="intro-excerpt">
-          <h1>Contact</h1>
-          <p class="mb-4">
-            Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
-            velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
-          </p>
-          <p>
-            <a href="" class="btn btn-secondary me-2">Shop Now</a><a href="#" class="btn btn-white-outline">Explore</a>
-          </p>
-        </div>
-      </div>
-      <div class="col-lg-7">
-        <div class="hero-img-wrap">
-          <img src="furni/images/couch.png" class="img-fluid" />
-        </div>
-      </div>
-    </div>
+<div class="hero d-flex justify-content-center align-items-center" style="
+      background: url('furni/images/SILAS BIANCO 4400px.jpg');
+      width: 100%;
+      height: 70vh;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      filter: brightness(0.90);
+    ">
+  <div>
+    <h1 class="text-white">Contact Us</h1>
   </div>
 </div>
 
@@ -124,7 +113,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
               <textarea name="" class="form-control" id="message" cols="30" rows="5"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary-hover-outline">
+            <button type="submit" class="btn btn-outline-success">
               Send Message
             </button>
           </form>
