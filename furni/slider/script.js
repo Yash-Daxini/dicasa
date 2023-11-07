@@ -1,4 +1,5 @@
 "use strict";
+console.warn("slider/Script.js");
 (function () {
 	// Global variables
 	var userAgent = navigator.userAgent.toLowerCase(),

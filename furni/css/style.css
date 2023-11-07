@@ -49,7 +49,11 @@ a.more {
   width: 60px;
   /* padding-right: 15px; */
 }
-
+.navbar {
+  background-color: transparent; /* Make the navbar background transparent */
+  position: absolute; /* Set the position to relative */
+  z-index: 2; /* Set the z-index to be above other elements */
+}
 .custom-navbar .custom-navbar-nav {
   margin-left: 18px;
 }

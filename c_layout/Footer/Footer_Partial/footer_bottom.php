@@ -2,5 +2,5 @@
     echo "
     </body>
     </html>
-    "
+    ";
 ?>

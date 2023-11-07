@@ -6,7 +6,7 @@
         <div class='col-lg-3 col-md-6 col-sm-8 text-light'>
           <div class='pb-3 logo'>
             <img
-              src='https://kingdomceramic.com/assets/img/LOGO.png'
+              src='furni/images/DICASA CERAMICA LOGO BLACK.png'
               alt='king dom'
               width='220'
               class='img-fluid px-1'
@@ -21,20 +21,20 @@
           <div class='fw-light'>
             <p class='mb-0'>
               <span style='color: #bc7236; font-weight: 400'>Phone :</span>
-              <a href='tel:94286 22294'>+91 94286 22294 </a>
+              <a href='tel:96625 78987'>+91 96625 78987 </a>
             </p>
-            <a href='tel:94286 22294'> </a>
+            <a href='tel:96625 78987'> </a>
           </div>
-          <a href='tel:94286 22294'> </a>
+          <a href='tel:96625 78987'> </a>
           <div class='fw-light'>
-            <a href='tel:94286 22294'> </a>
+            <a href='tel:96625 78987'> </a>
             <p>
-              <a href='tel:94286 22294'
+              <a href='tel:96625 78987'
                 ><span style='color: #bc7236; font-weight: 400'
                   >Email :
                 </span></a
-              ><a href='mailto:info@kingdomceramic.com'
-                >info@kingdomceramic.com</a
+              ><a href='mailto:Info@dicasaceramica.com'
+                >Info@dicasaceramica.com</a
               >
             </p>
           </div>

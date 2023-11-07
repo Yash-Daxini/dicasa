@@ -461,6 +461,11 @@ include_once __DIR__ . '/c_layout/Header/header.php';
   </div>
 </div>
 
+<script src='furni/slider/core.min.js'></script>
+<script src='furni/slider/script.js'></script>
+<script src='furni/js/core.min.js'></script>
+<script src='furni/js/slider.js'></script>
+
 <?php
 include_once __DIR__ . '/c_layout/Footer/footer.php';
 ?>

@@ -8,5 +8,5 @@ echo "
     <meta property='og:description' content='$MetaOgDescription' />
     <meta property='og:image' content='$MetaOgImage' />
     <title>$Title</title>
-    "
+    ";
     ?>
