@@ -1,18 +1,17 @@
 <?php
 echo "
     <nav
-      class='custom-navbar justify-content-sm-between navbar navbar-dark navbar navbar-expand-md navbar navbar-default navbar-fixed-top'
-      arial-label='Furni navigation bar'
+      class='navbar custom-navbar navbar-expand-md justify-content-sm-between'
     >
       <div class='container-xl'>
         <a class='navbar-brand justify-content-center' href='index.php'
           ><img src='furni/images/DICASA CERAMICA LOGO.png' class='img-fluid'
         /></a>
         <button
-          class='navbar-toggler'
+          class='navbar-toggler border border-4'
           type='button'
           data-bs-toggle='collapse'
-          data-bs-target='#navbarNav'
+          data-bs-target='#navbarsFurni'
           aria-controls='navbarNav'
           aria-expanded='false'
           aria-label='Toggle navigation'
@@ -27,6 +26,7 @@ echo "
             </li>
             <li><a class='nav-link' href='aboutus.php'>About us</a></li>
             <li><a class='nav-link' href='products.php'>Products</a></li>
+            <li><a class='nav-link' href='catalouge.php'>E-Catalouge</a></li>
             <li class='nav-item dropdown'>
               <a
               class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'
@@ -64,4 +64,4 @@ echo "
     <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js' integrity='sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL' crossorigin='anonymous'></script>
 
     "
-?>;
+?>

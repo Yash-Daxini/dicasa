@@ -42,13 +42,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
   }
 </style>
 
-<div class="hero d-flex justify-content-center align-items-center" style="
+<div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
         background: url('furni/images/AREZZO WHITE Final Chnages 4400px.jpg');
-        width: 100%;
-        height: 60vh;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        filter: brightness(0.9);
       ">
   <div>
     <h1 class="text-white">Packing-Details</h1>

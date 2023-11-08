@@ -1,5 +1,4 @@
 "use strict";
-console.warn("slider/Script.js");
 (function () {
 	// Global variables
 	var userAgent = navigator.userAgent.toLowerCase(),
@@ -333,14 +332,14 @@ console.warn("slider/Script.js");
 						url: url,
 						dataType: 'jsonp',
 						error: function (resp, text) {
-							$output.php('Server error: ' + text);
+							$output.html('Server error: ' + text);
 
 							setTimeout(function () {
 								$output.removeClass("active");
 							}, 4000);
 						},
 						success: function (resp) {
-							$output.php(resp.Message).addClass('active');
+							$output.html(resp.Message).addClass('active');
 
 							setTimeout(function () {
 								$output.removeClass("active");
@@ -351,7 +350,7 @@ console.warn("slider/Script.js");
 							if (isNoviBuilder || !isValidated($this.find('[data-constraints]')))
 								return false;
 
-							$output.php('Submitting...').addClass('active');
+							$output.html('Submitting...').addClass('active');
 						}
 					});
 
@@ -423,7 +422,7 @@ console.warn("slider/Script.js");
 								.done(function (responceCode) {
 									if (responceCode !== 'CPT000') {
 										if (output.hasClass("snackbars")) {
-											output.php('<p><span class="icon text-middle mdi mdi-check icon-xxs"></span><span>' + captchaMsg[responceCode] + '</span></p>')
+											output.html('<p><span class="icon text-middle mdi mdi-check icon-xxs"></span><span>' + captchaMsg[responceCode] + '</span></p>')
 
 											setTimeout(function () {
 												output.removeClass("active");
@@ -431,7 +430,7 @@ console.warn("slider/Script.js");
 
 											captchaFlag = false;
 										} else {
-											output.php(captchaMsg[responceCode]);
+											output.html(captchaMsg[responceCode]);
 										}
 
 										output.addClass("active");
@@ -446,7 +445,7 @@ console.warn("slider/Script.js");
 							form.addClass('form-in-process');
 
 							if (output.hasClass("snackbars")) {
-								output.php('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sending</span></p>');
+								output.html('<p><span class="icon text-middle fa fa-circle-o-notch fa-spin icon-xxs"></span><span>Sending</span></p>');
 								output.addClass("active");
 							}
 						} else {
@@ -488,13 +487,13 @@ console.warn("slider/Script.js");
 
 						if (result === "MF000") {
 							if (output.hasClass("snackbars")) {
-								output.php('<p><span class="icon text-middle mdi mdi-check icon-xxs"></span><span>' + msg[result] + '</span></p>');
+								output.html('<p><span class="icon text-middle mdi mdi-check icon-xxs"></span><span>' + msg[result] + '</span></p>');
 							} else {
 								output.addClass("active success");
 							}
 						} else {
 							if (output.hasClass("snackbars")) {
-								output.php(' <p class="snackbars-left"><span class="icon icon-xxs mdi mdi-alert-outline text-middle"></span><span>' + msg[result] + '</span></p>');
+								output.html(' <p class="snackbars-left"><span class="icon icon-xxs mdi mdi-alert-outline text-middle"></span><span>' + msg[result] + '</span></p>');
 							} else {
 								output.addClass("active error");
 							}

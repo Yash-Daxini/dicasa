@@ -13598,7 +13598,7 @@ html.boxed .rd-navbar--is-clone {
 		background: #fff;
 		color: #151515;
 	}
-	.swiper-navigation_modern .swiper-button-prev::before,
+	/* .swiper-navigation_modern .swiper-button-prev::before,
 	.swiper-navigation_modern .swiper-button-next::before {
 		font-size: 24px;
 		font-family: 'fl-budicons-free';
@@ -13614,7 +13614,7 @@ html.boxed .rd-navbar--is-clone {
 	}
 	.swiper-navigation_modern .swiper-button-next::before {
 		content: '\e025';
-	}
+	} */
 	.swiper-navigation_modern .swiper-button-prev + .swiper-button-next {
 		border-left: 1px solid #ebebeb;
 	}

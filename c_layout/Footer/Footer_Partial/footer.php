@@ -42,17 +42,17 @@
             <a
               href=' https://wa.me/919265541391'
               class='d-flex align-items-center justify-content-center'
-              ><i class='bi bi-whatsapp'></i
+              ><i class='bi bi-whatsapp mx-2'></i
             ></a>
             <a
               href=' https://www.facebook.com/profile.php?id=100091466800588&amp;mibextid=2JQ9oc'
               class='d-flex align-items-center justify-content-center'
-              ><i class='bi bi-facebook'></i
+              ><i class='bi bi-facebook mx-2'></i
             ></a>
             <a
               href=' https://www.instagram.com/kingdom__international/'
               class='d-flex align-items-center justify-content-center'
-              ><i class='bi bi-instagram'></i
+              ><i class='bi bi-instagram mx-2'></i
             ></a>
           </div>
         </div>

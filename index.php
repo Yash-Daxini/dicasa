@@ -8,7 +8,9 @@ $MetaOgDescription = "fdf";
 $Title = "Dicasa Ceramic";
 include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
-
+<!-- <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 <!-- Swiper-->
 <section class="section swiper-slider_style-3 swiper-buttons-alternate">
   <div class="swiper-container swiper-slider swiper-slider_height-1" data-loop="true" data-autoplay="4200"
@@ -16,7 +18,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     data-custom-next="#swiper-next" data-custom-slide-effect="interLeaveEffect">
     <div class="swiper-wrapper">
       <div class="swiper-slide bg-gray-dark">
-        <div class="slide-inner" style="background-image: url(slider-slide-1-1920x749.jpg)">
+        <div class="slide-inner" style="background-image: url(furni/images/slider-slide-1-1920x749.jpg)">
           <div class="swiper-slide-caption">
             <div class="container">
               <h1 data-caption-animate="fadeInUpSmall">
@@ -34,7 +36,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         </div>
       </div>
       <div class="swiper-slide bg-gray-dark">
-        <div class="slide-inner" style="background-image: url(slider-slide-2-1920x749.jpg)">
+        <div class="slide-inner" style="background-image: url(furni/images/slider-slide-2-1920x749.jpg)">
           <div class="swiper-slide-caption">
             <div class="container">
               <h1 data-caption-animate="fadeInUpSmall">
@@ -52,7 +54,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         </div>
       </div>
       <div class="swiper-slide bg-gray-dark">
-        <div class="slide-inner" style="background-image: url(slider-slide-3-1920x749.jpg)">
+        <div class="slide-inner" style="background-image: url(furni/images/slider-slide-3-1920x749.jpg)">
           <div class="swiper-slide-caption">
             <div class="container">
               <h1 data-caption-animate="fadeInUpSmall">
@@ -460,11 +462,6 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     </div>
   </div>
 </div>
-
-<script src='furni/slider/core.min.js'></script>
-<script src='furni/slider/script.js'></script>
-<script src='furni/js/core.min.js'></script>
-<script src='furni/js/slider.js'></script>
 
 <?php
 include_once __DIR__ . '/c_layout/Footer/footer.php';

@@ -10,7 +10,6 @@ body {
   overflow-x: hidden;
   position: relative;
 }
-
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -47,13 +46,8 @@ a.more {
   margin-left: 50%;
   transform: scale(2);
   width: 60px;
-  /* padding-right: 15px; */
 }
-.navbar {
-  background-color: transparent; /* Make the navbar background transparent */
-  position: absolute; /* Set the position to relative */
-  z-index: 2; /* Set the z-index to be above other elements */
-}
+
 .custom-navbar .custom-navbar-nav {
   margin-left: 18px;
 }
@@ -84,10 +78,15 @@ a.more {
   font-weight: 500;
   color: #000 !important;
   opacity: .7;
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: .5s all ease;
+  -o-transition: .5s all ease;
+  transition: .5s all ease;
   position: relative;
+}
+
+.dropdown-menu {
+  width: 250px !important;
+  /* height: 400px !important; */
 }
 
 @media (min-width: 768px) {
@@ -102,9 +101,9 @@ a.more {
     opacity: 1;
     visibility: visible;
     width: 0;
-    -webkit-transition: .15s all ease-out;
-    -o-transition: .15s all ease-out;
-    transition: .15s all ease-out;
+    -webkit-transition: .3s all ease-out;
+    -o-transition: .3s all ease-out;
+    transition: .3s all ease-out;
   }
 }
 
@@ -169,12 +168,24 @@ a.more {
 }
 
 .hero {
-  /* background: #3b5d50; */
   background: #fff;
-  /* background-image: url("https://wingscera.com/img/compressed-images/2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat; */
   padding: calc(4rem - 30px) 0 0rem 0;
+}
+
+.heroBackgroundImageDiv {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  will-change: transform, opacity, filter;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-repeat: no-repeat;
+  z-index: 0;
 }
 
 @media (min-width: 768px) {
@@ -332,6 +343,18 @@ a.more {
 .section-title {
   color: #2f2f2f;
 }
+
+.tilesImg {
+  height: 150px;
+  filter: brightness(0.5);
+  transition: .5s;
+}
+
+.tilesImg:hover {
+  filter: brightness(1);
+  z-index: 100;
+}
+
 .productSection .productImages {
   filter: blur(0.1px);
   /* filter: grayscale(100%); */
@@ -1001,7 +1024,9 @@ a.more {
 .service {
   line-height: 1.5;
 }
-
+.service-contents{
+  width: 250px;
+}
 .service .service-icon {
   border-radius: 10px;
   -webkit-box-flex: 0;
