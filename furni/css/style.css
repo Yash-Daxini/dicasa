@@ -10,6 +10,7 @@ body {
   overflow-x: hidden;
   position: relative;
 }
+
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -35,6 +36,20 @@ a:hover {
 
 a.more {
   font-weight: 600;
+}
+.formAndMapDiv .formDiv,.formAndMapDiv .mapDiv{
+  width: 45%;
+}
+@media (max-width: 650px) {
+  .formAndMapDiv .formDiv,.formAndMapDiv .mapDiv{
+    width: 90%;
+  }
+}
+#contactForm {
+  border: 2px solid #3b5d50;
+  padding: 26px;
+  border-radius: 6px;
+  background-color: #effdf5;
 }
 
 .custom-navbar .navbar-brand {
@@ -1024,9 +1039,11 @@ a.more {
 .service {
   line-height: 1.5;
 }
-.service-contents{
+
+.service-contents {
   width: 250px;
 }
+
 .service .service-icon {
   border-radius: 10px;
   -webkit-box-flex: 0;

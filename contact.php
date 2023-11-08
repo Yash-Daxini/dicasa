@@ -85,9 +85,9 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     </div>
     <!-- </div> -->
   </div>
-  <div class="d-flex justify-content-center align-items-center gap-5">
+  <div class="formAndMapDiv d-flex justify-content-center align-items-center flex-wrap gap-5">
     <!-- <div class="col-md-12"> -->
-    <div class="w-50">
+    <div class="mapDiv">
       <div class="map d-flex justify-content-center align-items-center my-3">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58848.572782694064!2d70.84520153380565!3d22.801137358126343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39598dc69c8044d5%3A0x1c108cde80ccb10d!2sKINGDOM%20CERAMIC!5e0!3m2!1sen!2sin!4v1699329707838!5m2!1sen!2sin"
@@ -95,8 +95,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
-    <div class="w-50">
-      <form>
+    <div class="formDiv">
+      <form id="contactForm">
         <div class="row">
           <div class="col-6">
             <div class="form-group">
