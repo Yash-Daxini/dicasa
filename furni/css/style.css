@@ -29,6 +29,21 @@ a {
   text-decoration: underline;
 }
 
+ul li {
+  list-style-type: none;
+
+}
+
+ul li i {
+  margin-right: 4px;
+  color: #f39b00;
+}
+
+ul {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
 a:hover {
   color: #2f2f2f;
   text-decoration: none;
@@ -37,14 +52,20 @@ a:hover {
 a.more {
   font-weight: 600;
 }
-.formAndMapDiv .formDiv,.formAndMapDiv .mapDiv{
+
+.formAndMapDiv .formDiv,
+.formAndMapDiv .mapDiv {
   width: 45%;
 }
+
 @media (max-width: 650px) {
-  .formAndMapDiv .formDiv,.formAndMapDiv .mapDiv{
+
+  .formAndMapDiv .formDiv,
+  .formAndMapDiv .mapDiv {
     width: 90%;
   }
 }
+
 #contactForm {
   border: 2px solid #3b5d50;
   padding: 26px;
