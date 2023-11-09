@@ -1,5 +1,5 @@
 <?php
-    echo "
+echo "
     <footer class='container-fluid p-0 footer-container'>
     <div class='bg-dark text-start p-5 pb-4'>
       <div class='row'>
@@ -14,7 +14,7 @@
           </div>
           <div class='pe-3'>
             <span
-              >201, Bilva trade hub, Near mahendranagar circle, 8-A national
+              >202, Bilva trade hub, Near mahendranagar circle, 8-A national
               highway, Morbi - 363642 Gujarat, India</span
             >
           </div>
@@ -40,17 +40,17 @@
           </div>
           <div class='social-links d-flex mt-2'>
             <a
-              href=' https://wa.me/919265541391'
+              href=' https://wa.me/919662578987'
               class='d-flex align-items-center justify-content-center'
               ><i class='bi bi-whatsapp mx-2'></i
             ></a>
             <a
-              href=' https://www.facebook.com/profile.php?id=100091466800588&amp;mibextid=2JQ9oc'
+              href=' https://www.facebook.com/dicasa.ceramica'
               class='d-flex align-items-center justify-content-center'
               ><i class='bi bi-facebook mx-2'></i
             ></a>
             <a
-              href=' https://www.instagram.com/kingdom__international/'
+              href=' https://www.instagram.com/dicasa_ceramica/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=='
               class='d-flex align-items-center justify-content-center'
               ><i class='bi bi-instagram mx-2'></i
             ></a>
@@ -72,10 +72,6 @@
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
                 ><a href='contact.php'>Contact Us</a>
-              </li>
-              <li class='m-2'>
-                <i class='bi bi-chevron-right'></i
-                ><a href='#'>Site Map</a>
               </li>
             </ul>
           </div>
