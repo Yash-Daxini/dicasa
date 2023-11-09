@@ -20,20 +20,20 @@ echo "
           </div>
           <div class='fw-light'>
             <p class='mb-0'>
-              <span style='color: #bc7236; font-weight: 400'>Phone :</span>
-              <a href='tel:96625 78987'>+91 96625 78987 </a>
+              <span style='color: #fff; font-weight: 400'>Phone :</span>
+              <a style='color: #fff;' href='tel:96625 78987'>+91 96625 78987 </a>
             </p>
-            <a href='tel:96625 78987'> </a>
+            <a style='color: #fff;' href='tel:96625 78987'> </a>
           </div>
-          <a href='tel:96625 78987'> </a>
+          <a style='color: #fff;' href='tel:96625 78987'> </a>
           <div class='fw-light'>
-            <a href='tel:96625 78987'> </a>
+            <a style='color: #fff;' href='tel:96625 78987'> </a>
             <p>
               <a href='tel:96625 78987'
-                ><span style='color: #bc7236; font-weight: 400'
+                ><span style='color: #fff; font-weight: 400'
                   >Email :
                 </span></a
-              ><a href='mailto:Info@dicasaceramica.com'
+              ><a style='color: #fff;' href='mailto:Info@dicasaceramica.com'
                 >Info@dicasaceramica.com</a
               >
             </p>
@@ -108,14 +108,9 @@ echo "
           </div>
         </div>
         <div
-          class='col-lg-3 col-md-6 col-sm-8 text-center mb-3'
+          class='col-lg-3 col-md-6 col-sm-8 d-flex flex-column justify-content-center align-items-center text-center mb-3'
           style='color: #b6b6b6'
         >
-          <img
-            class='img-fluid'
-            alt='Make In India'
-            src='https://ketonelaminates.com/assets/img/Make-in-ndia-Logo-PNG-HD-Transparent.png'
-          />
           <div style='margin-top: 37px'>
             © Copyright
             <span class='text-center text-light fw-medium'

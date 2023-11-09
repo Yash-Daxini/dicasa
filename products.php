@@ -385,7 +385,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     })
     .catch(error => {
       console.error(error.message);
-    });
+    }); 
 
 </script>
 
