@@ -63,19 +63,19 @@
             <h4 class='text-light mb-2'>Useful links</h4>
             <ul>
               <li class='m-2'>
-                <i class='bi bi-chevron-right'></i><a href=''>Home</a>
+                <i class='bi bi-chevron-right'></i><a href='index.php'>Home</a>
               </li>
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
-                ><a href='About'>About Us</a>
+                ><a href='aboutus.php'>About Us</a>
               </li>
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
-                ><a href='Contact'>Contact Us</a>
+                ><a href='contact.php'>Contact Us</a>
               </li>
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
-                ><a href='Site-Map'>Site Map</a>
+                ><a href='#'>Site Map</a>
               </li>
             </ul>
           </div>

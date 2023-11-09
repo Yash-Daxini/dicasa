@@ -9,8 +9,7 @@ $Title = "Dicasa Ceramic";
 include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
 <!-- <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> -->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!-- Swiper-->
 <section class="section swiper-slider_style-3 swiper-buttons-alternate">
   <div class="swiper-container swiper-slider swiper-slider_height-1" data-loop="true" data-autoplay="4200"
@@ -195,10 +194,6 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     <div class="row justify-content-between">
       <div class="col-lg-6">
         <h2 class="section-title">Why Choose Us</h2>
-        <p>
-          Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
-          velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
-        </p>
 
         <div class="row my-5">
           <div class="col-6 col-md-6">
@@ -206,10 +201,12 @@ include_once __DIR__ . '/c_layout/Header/header.php';
               <div class="icon">
                 <img src="furni/images/truck.svg" alt="Image" class="imf-fluid" />
               </div>
-              <h3>Fast &amp; Free Shipping</h3>
+              <h3>Unrivaled Quality</h3>
               <p>
-                Donec vitae odio quis nisl dapibus malesuada. Nullam ac
-                aliquet velit. Aliquam vulputate.
+                Our commitment to excellence begins with the quality of our ceramics. Meticulously crafted using
+                state-of-the-art techniques, our tiles, countertops, and decor pieces boast unparalleled durability and
+                longevity. Experience the assurance of premium quality that transforms your space into a testament of
+                enduring elegance.
               </p>
             </div>
           </div>
@@ -219,23 +216,27 @@ include_once __DIR__ . '/c_layout/Header/header.php';
               <div class="icon">
                 <img src="furni/images/bag.svg" alt="Image" class="imf-fluid" />
               </div>
-              <h3>Easy to Shop</h3>
+              <h3>Versatility in Design</h3>
               <p>
-                Donec vitae odio quis nisl dapibus malesuada. Nullam ac
-                aliquet velit. Aliquam vulputate.
+                Elevate your interior design vision with our diverse range of ceramic offerings. Whether you seek
+                minimalist sophistication or bold, expressive patterns, our collection caters to a spectrum of styles.
+                Choose from a variety of textures, colors, and finishes to seamlessly integrate ceramics into your
+                unique design narrative.
               </p>
             </div>
           </div>
 
-          <div class="col-6 col-md-6">
+          <!-- <div class="col-6 col-md-6">
             <div class="feature">
               <div class="icon">
                 <img src="furni/images/support.svg" alt="Image" class="imf-fluid" />
               </div>
-              <h3>24/7 Support</h3>
+              <h3>Innovative Solutions for Every Space</h3>
               <p>
-                Donec vitae odio quis nisl dapibus malesuada. Nullam ac
-                aliquet velit. Aliquam vulputate.
+                No two spaces are alike, and our ceramics recognize and adapt to this diversity. From compact urban
+                apartments to expansive suburban homes, our range of ceramic tiles, countertops, and decor pieces are
+                designed to cater to the specific needs and dimensions of your space, ensuring a tailored solution for
+                every room.
               </p>
             </div>
           </div>
@@ -248,20 +249,21 @@ include_once __DIR__ . '/c_layout/Header/header.php';
               <div class="icon">
                 <img src="furni/images/return.svg" alt="Image" class="imf-fluid" />
               </div>
-              <h3>Hassle Free Returns</h3>
+              <h3>Customer Satisfaction Guarantee</h3>
               <p>
-                Donec vitae odio quis nisl dapibus malesuada. Nullam ac
-                aliquet velit. Aliquam vulputate.
+                Your satisfaction is our utmost priority. We stand behind the quality and design of our ceramics,
+                offering a customer satisfaction guarantee. Experience peace of mind knowing that your choice in our
+                ceramics is backed by a commitment to delivering excellence and ensuring your complete contentment.
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
 
       <div class="col-lg-5">
-        <div class="img-wrap d-flex justify-content-center align-items-center flex-column flex-wrap gap-5">
-          <img src="furni/images/P 1.jpg" alt="Image" class="img-fluid w-75" />
-          <img src="furni/images/P8.jpg" alt="Image" class="img-fluid w-75" />
+        <div class="img-wrap">
+          <img src="furni/images/P 1.jpg" alt="Image" class="img-fluid w-100" />
+          <!-- <img src="furni/images/P8.jpg" alt="Image" class="img-fluid w-75" /> -->
         </div>
       </div>
     </div>
@@ -289,17 +291,16 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           We Help You Make Modern Interior Design
         </h2>
         <p>
-          Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
-          quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
-          vulputate velit imperdiet dolor tempor tristique. Pellentesque
-          habitant morbi tristique senectus et netus et malesuada
+          Modern interior design often revolves around clean lines and a seamless aesthetic. Embrace this concept by
+          incorporating sleek ceramic tiles for your flooring. Choose from a myriad of designs, including geometric
+          patterns or monochromatic hues, to create a visually appealing foundation for your space.
         </p>
 
         <ul class="list-unstyled custom-list my-4">
-          <li>Donec vitae odio quis nisl dapibus malesuada</li>
-          <li>Donec vitae odio quis nisl dapibus malesuada</li>
-          <li>Donec vitae odio quis nisl dapibus malesuada</li>
-          <li>Donec vitae odio quis nisl dapibus malesuada</li>
+          <li> Sleek Ceramic Tiles for Flooring</li>
+          <li>Versatile Ceramic Wall Accents</li>
+          <li>Artistic Ceramic Decor Pieces</li>
+          <li>Ceramic Lighting Fixtures</li>
         </ul>
         <p><a herf="#" class="btn btn-primary">Explore</a></p>
       </div>
