@@ -82,7 +82,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
             style="transform: translate(0px, 0px); opacity: 1">
             <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/APOLO%20GREY-MATT-CON.webp" alt=""
-                class="card-img-top tilesImg" style="transform: rotate(0deg)" />
+                class="card-img-top tilesImg img-fuild" style="transform: rotate(0deg)" />
               <div class="card-body">
                 <p class="card-text">APOLO GREY</p>
               </div>

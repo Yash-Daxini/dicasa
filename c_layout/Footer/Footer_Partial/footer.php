@@ -115,8 +115,8 @@ echo "
         <p>Send us a direct WhatsApp message:</p>
         <div class='position-relative mx-auto' style='max-width: 400px;'>
             <form id='whatsappForm'>
-                <input class='form-control bg-transparent w-100 py-3 ps-4 pe-4 text-white' id='whatsappInput' type='text' placeholder='Type Message'>
-                <button type='submit' class='btn btn-primary py-2 position-absolute top-0 end-0 mt-1 me-1'>Send</button>
+                <input class='form-control bg-transparent ps-4 pe-4 text-white' id='whatsappInput' type='text' placeholder='Type Message'>
+                <button type='submit' class='btn btn-light py-2 position-absolute top-0 end-0 mb-0 me-0 ms-0 mt-0' style='height: 48px;'>Send</button>
             </form>
         </div>
 
