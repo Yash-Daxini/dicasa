@@ -22,7 +22,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
 <div class="products m-5">
   <div class="row">
-    <div class="col-lg-3 col-md-4 col-sm-12 sidebar-side fs-6">
+    <div class="col-lg-3 col-md-4 col-sm-12 fs-6">
       <div class="card border-light shadow-lg mb-3" style="max-width: 18rem">
         <div class="card-header text-center d-flex justify-content-center">
           <img class="w-25 p-2" src="https://kingdomceramic.com/assets/img/icon/edit.png">
@@ -76,11 +76,11 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     </div>
     <div class="col-lg-9 col-md-8 col-sm-12 content-side">
       <div class="team-style-three product py-0">
-        <div class="row clearfix shadow-lg" id="div1" data-zanim-xs='{"delay":0}'
+        <div class="row clearfix" id="div1" data-zanim-xs='{"delay":0}'
           style="transform: translate(0px, 0px); opacity: 1">
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border border-0 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/APOLO%20GREY-MATT-CON.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -91,7 +91,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border border-0 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/AMPHORA%20CREMA-GLO-STO.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -102,7 +102,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border border-0 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/AMPHORA%20GRIS-GLO-STO.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -113,7 +113,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border border-0 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/ANGEL%20WHITE-GLO-MAR.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -124,7 +124,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border border-0 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/ANTOLINI%20DALMATA-HG-MAR.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -135,7 +135,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border border-0 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/ARGENTA%20CHOCO-HG-STO.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -146,7 +146,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border border-0 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/ARMANI%20GRIS-GLO-STO.webp" alt=""
                 class="card-img-top tilesImg " style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -157,7 +157,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border border-0 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/ASTREL%20WHITE-GLO-MAR.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -168,7 +168,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border border-0 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/BRAZIL%20STATUARIO%20RED-GLO-MAR.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -179,7 +179,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border border-0 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/BRILLIANT%20SKY%20ONYX-GLO-MAR.webp" alt=""
                 class="card-img-top tilesImg " style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -190,7 +190,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border border-0 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/CALOCARA%20SATUARY-CAR-MAR.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -201,7 +201,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border border-0 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/ALLISON%20BIANCO-GLO-MAR.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -212,7 +212,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border border-0 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/AMRON%20BEIGE-GLO-STO.webp" alt=""
                 class="card-img-top tilesImg " style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -223,7 +223,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border border-0 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/ARMANI%20BRONZE-GLO-STON.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -234,7 +234,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border border-0 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/BRAZILIAN%20BIANCO-GLO-MAR.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">

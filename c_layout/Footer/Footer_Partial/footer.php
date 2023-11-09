@@ -108,9 +108,18 @@ echo "
           </div>
         </div>
         <div
-          class='col-lg-3 col-md-6 col-sm-8 d-flex flex-column justify-content-center align-items-center text-center mb-3'
+          class='col-lg-3 col-md-6 col-sm-8 text-center mb-3'
           style='color: #b6b6b6'
         >
+        <h5 class='text-white mb-4'>Direct Contact</h5>
+        <p>Send us a direct WhatsApp message:</p>
+        <div class='position-relative mx-auto' style='max-width: 400px;'>
+            <form id='whatsappForm'>
+                <input class='form-control bg-transparent w-100 py-3 ps-4 pe-4 text-white' id='whatsappInput' type='text' placeholder='Type Message'>
+                <button type='submit' class='btn btn-primary py-2 position-absolute top-0 end-0 mt-1 me-1'>Send</button>
+            </form>
+        </div>
+
           <div style='margin-top: 37px'>
             © Copyright
             <span class='text-center text-light fw-medium'
