@@ -5,9 +5,10 @@ $MetaOgImage = "dfsa";
 $MetaKeywords = "fas";
 $MetaOgImage = "fd";
 $MetaOgDescription = "fdf";
-$Title = "Dicasa Ceramic - Products";
+$Title = "Products - Dicasa Ceramic";
 include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
+
 
 <div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
     background: url('furni/images/P7.jpg');
@@ -16,6 +17,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     <h1 class="text-white" style="filter: brightness(1);">Packing-Details</h1>
   </div>
 </div>
+
+
 
 <div class="products m-5">
   <div class="row">
@@ -26,22 +29,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           <h4 class="mt-3 mx-5">Type</h4>
         </div>
         <div class="card-body">
-          <ul class="list clearfix">
-            <li>
-              <a class="text-decoration-none text-dark" href="Type/porcelain-tiles">PORCELAIN TILES</a>
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="Type/porcelain-slabs">PORCELAIN SLABS</a>
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="Type/wall-tiles">WALL TILES</a>
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="Type/outdoor-tiles">OUTDOOR TILES</a>
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="Type/spc-lvt-vinyl-flooring">SPC-LVT VINYL FLOORING</a>
-            </li>
+          <ul class="list clearfix" id="allTypeList">
           </ul>
         </div>
       </div>
@@ -51,47 +39,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           <h4 class="mt-3 mx-5">Size</h4>
         </div>
         <div class="card-body">
-          <ul class="list clearfix" id="drop2">
-            <li>
-              <a class="text-decoration-none text-dark" href="javascript:void(0)">
-                300x600-mm-(12"x24")</a>
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="javascript:void(0)">
-                600x600-mm-(24"x24")</a>
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="javascript:void(0)">
-                600x1200-mm-(24"x48")</a>
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="javascript:void(0)">
-                800x800-mm-(32"x32")</a>
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="javascript:void(0)">
-                800x1600-mm-(32"x64")</a>
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="javascript:void(0)">
-                1000x1000-mm-(40"x40")</a>
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="javascript:void(0)">
-                1200x1200-mm-(48"x48")</a>
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="javascript:void(0)">
-                1200x2400-mm-(48"x96")</a>
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="javascript:void(0)">
-                1600x3200-mm-(64"x128")</a>
-            </li>
-            <li>
-              <a class="text-decoration-none text-dark" href="javascript:void(0)">
-                800x3200-mm-(32"x128")</a>
-            </li>
+          <ul class="list clearfix" id="allSizesList">
           </ul>
         </div>
       </div>
@@ -101,27 +49,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           <h4 class="mt-3 mx-5">Finish</h4>
         </div>
         <div class="card-body">
-          <ul class="list clearfix" id="drop4">
-            <li>
-              <a href="javascript:void(0)" class="finish fn_1 text-decoration-none text-dark">
-                glossy
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" class="finish fn_1 text-decoration-none text-dark">
-                matt
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" class="finish fn_1 text-decoration-none text-dark">
-                high-glossy
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" class="finish fn_1 text-decoration-none text-dark">
-                carving-matt
-              </a>
-            </li>
+          <ul class="list clearfix" id="allFinishList">
           </ul>
         </div>
       </div>
@@ -131,37 +59,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           <h4 class="mt-3 mx-5">Space</h4>
         </div>
         <div class="card-body">
-          <ul class="list clearfix" id="drop3">
-            <li>
-              <a href="javascript:void(0)" data-spaceid="1" data-spacename="Bathroom"
-                class="space sp_1 text-decoration-none text-dark">
-                bathroom
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" data-spaceid="1" data-spacename="Bathroom"
-                class="space sp_1 text-decoration-none text-dark">
-                kitchen
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" data-spaceid="1" data-spacename="Bathroom"
-                class="space sp_1 text-decoration-none text-dark">
-                living
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" data-spaceid="1" data-spacename="Bathroom"
-                class="space sp_1 text-decoration-none text-dark">
-                indoor
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" data-spaceid="1" data-spacename="Bathroom"
-                class="space sp_1 text-decoration-none text-dark">
-                outdoor
-              </a>
-            </li>
+          <ul class="list clearfix" id="allSpaceList">
           </ul>
         </div>
       </div>
@@ -171,31 +69,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           <h4 class="mt-3 mx-5">Look</h4>
         </div>
         <div class="card-body">
-          <ul class="list clearfix" id="drop5">
-            <li>
-              <a href="javascript:void(0)" data-effectid="1" data-effectname="STONE"
-                class="effect eff_1 text-decoration-none text-dark">
-                stone
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" data-effectid="1" data-effectname="WOOD"
-                class="effect eff_1 text-decoration-none text-dark">
-                wood
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" data-effectid="1" data-effectname="MARBLE"
-                class="effect eff_1 text-decoration-none text-dark">
-                marble
-              </a>
-            </li>
-            <li>
-              <a href="javascript:void(0)" data-effectid="1" data-effectname="CONCRETE"
-                class="effect eff_1 text-decoration-none text-dark">
-                concrete
-              </a>
-            </li>
+          <ul class="list clearfix" id="allLookList">
           </ul>
         </div>
       </div>
@@ -374,6 +248,146 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     </div>
   </div>
 </div>
+
+
+<script>
+  let apiURL = 'https://kingdomceramic.com/ad_kingdomceramic/API/SizeApi';
+  const apiKey = 'ADMIN123123';
+
+  // Define the API key in a JSON object
+  const data = {
+    apikey: apiKey,
+  };
+
+  // Fetch options
+  const options = {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data),
+  };
+  // Make the fetch request
+  fetch(apiURL, options)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Failed to fetch data from the API. Status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+      let allSizesList = document.getElementById('allSizesList');
+      data.data.forEach(element => {
+        allSizesList.innerHTML += `
+            <li>
+              <a class="text-decoration-none text-dark text-uppercase" href="javascript:void(0)">
+                ${element.SizeUrl}</a>
+            </li>
+      `
+      });
+    })
+    .catch(error => {
+      console.error(error.message);
+    });
+
+  apiURL = `https://kingdomceramic.com/ad_kingdomceramic/API/LookApi`;
+  fetch(apiURL, options)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Failed to fetch data from the API. Status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+      let allLookList = document.getElementById('allLookList');
+      data.data.forEach(element => {
+        allLookList.innerHTML += `
+            <li>
+              <a href="javascript:void(0)" data-effectid="1" data-effectname="` + element.LookName + `"
+                class="effect eff_1 text-decoration-none text-dark text-uppercase">
+                ${element.LookUrl}  
+              </a>
+            </li>
+      `
+      });
+    })
+    .catch(error => {
+      console.error(error.message);
+    });
+
+  apiURL = `https://kingdomceramic.com/ad_kingdomceramic/API/SpaceApi`;
+  fetch(apiURL, options)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Failed to fetch data from the API. Status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+      let allSpaceList = document.getElementById('allSpaceList');
+      data.data.forEach(element => {
+        allSpaceList.innerHTML += `
+          <li>
+              <a href="javascript:void(0)" data-spaceid="1" data-spacename="` + element.SpaceName + `"
+                class="space sp_1 text-decoration-none text-dark text-uppercase">
+                ${element.SpaceUrl} 
+              </a>
+            </li>
+      `
+      });
+    })
+    .catch(error => {
+      console.error(error.message);
+    });
+
+  apiURL = `https://kingdomceramic.com/ad_kingdomceramic/API/FinishApi`;
+  fetch(apiURL, options)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Failed to fetch data from the API. Status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+      let allFinishList = document.getElementById('allFinishList');
+      data.data.forEach(element => {
+        allFinishList.innerHTML += `
+            <li>
+              <a href="javascript:void(0)" class="finish fn_1 text-decoration-none text-dark text-uppercase">
+              ${element.FinishUrl} 
+              </a>
+            </li>
+      `
+      });
+    })
+    .catch(error => {
+      console.error(error.message);
+    });
+
+    
+  apiURL = `https://kingdomceramic.com/ad_kingdomceramic/API/TypeApi`;
+  fetch(apiURL, options)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Failed to fetch data from the API. Status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+      let allTypeList = document.getElementById('allTypeList');
+      data.data.forEach(element => {
+        allTypeList.innerHTML += `
+            <li>
+              <a class="text-decoration-none text-dark text-uppercase" href="Type/`+ element.TypeName + `">${element.TypeUrl}</a>
+            </li>
+      `
+      });
+    })
+    .catch(error => {
+      console.error(error.message);
+    });
+
+</script>
 
 <?php
 include_once __DIR__ . '/c_layout/Footer/footer.php';
