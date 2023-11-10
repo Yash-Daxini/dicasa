@@ -131,8 +131,6 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
 </div>
 
-
-
 <?php
 include_once __DIR__ . '/c_layout/Footer/footer.php';
 ?>
