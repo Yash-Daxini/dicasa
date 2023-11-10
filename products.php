@@ -9,7 +9,6 @@ $Title = "Products - Dicasa Ceramic";
 include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
 
-
 <div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
     background: url('furni/images/P7.jpg');
   ">
@@ -76,11 +75,13 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     </div>
     <div class="col-lg-9 col-md-8 col-sm-12 content-side">
       <div class="team-style-three product py-0">
-        <div class="row clearfix" id="div1" data-zanim-xs='{"delay":0}'
+        <div class="row clearfix" id="allProductsDiv" data-zanim-xs='{"delay":0}'
           style="transform: translate(0px, 0px); opacity: 1">
-          <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
+
+          <!-- <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center"
+              style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/APOLO%20GREY-MATT-CON.webp" alt=""
                 class="card-img-top tilesImg img-fuild" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -91,7 +92,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center"
+              style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/AMPHORA%20CREMA-GLO-STO.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -102,7 +104,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center"
+              style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/AMPHORA%20GRIS-GLO-STO.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -113,7 +116,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center"
+              style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/ANGEL%20WHITE-GLO-MAR.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -124,7 +128,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center"
+              style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/ANTOLINI%20DALMATA-HG-MAR.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -135,7 +140,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center"
+              style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/ARGENTA%20CHOCO-HG-STO.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -146,7 +152,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center"
+              style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/ARMANI%20GRIS-GLO-STO.webp" alt=""
                 class="card-img-top tilesImg " style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -157,7 +164,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center"
+              style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/ASTREL%20WHITE-GLO-MAR.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -168,7 +176,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center"
+              style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/BRAZIL%20STATUARIO%20RED-GLO-MAR.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -179,7 +188,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center"
+              style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/BRILLIANT%20SKY%20ONYX-GLO-MAR.webp" alt=""
                 class="card-img-top tilesImg " style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -190,7 +200,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center"
+              style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/CALOCARA%20SATUARY-CAR-MAR.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -201,7 +212,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center"
+              style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/ALLISON%20BIANCO-GLO-MAR.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -212,7 +224,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center"
+              style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/AMRON%20BEIGE-GLO-STO.webp" alt=""
                 class="card-img-top tilesImg " style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -223,7 +236,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center"
+              style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/ARMANI%20BRONZE-GLO-STON.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
@@ -234,14 +248,15 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center"
+              style="width: 18rem;">
               <img src="https://kingdomceramic.com/Images/product/BRAZILIAN%20BIANCO-GLO-MAR.webp" alt=""
                 class="card-img-top tilesImg" style="transform: rotate(0deg)" />
               <div class="card-body">
                 <p class="card-text">BRAZILLIAN BIANCO</p>
               </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -250,17 +265,30 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 </div>
 
 
-<script>
+<!-- <script>
+
+  let typeOfTiles = '';
+  let sizeOfTiles = '';
+  let finishOfTiles = '';
+  let spaceOfTiles = '';
+  let lookOfTiles = '';
+
+
   let apiURL = 'https://kingdomceramic.com/ad_kingdomceramic/API/SizeApi';
   const apiKey = 'ADMIN123123';
 
   // Define the API key in a JSON object
   const data = {
     apikey: apiKey,
+    typeOfTiles: '',
+    sizeOfTiles: '',
+    finishOfTiles: '',
+    spaceOfTiles: '',
+    lookOfTiles: '',
   };
 
   // Fetch options
-  const options = {
+  let options = {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -280,8 +308,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       data.data.forEach(element => {
         allSizesList.innerHTML += `
             <li>
-              <a class="text-decoration-none text-dark text-uppercase" href="javascript:void(0)">
-                ${element.SizeUrl}</a>
+              <button class="productPageBtn sizeBtn text-dark text-uppercase">
+                ${element.SizeUrl}</button>
             </li>
       `
       });
@@ -303,10 +331,10 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       data.data.forEach(element => {
         allLookList.innerHTML += `
             <li>
-              <a href="javascript:void(0)" data-effectid="1" data-effectname="` + element.LookName + `"
-                class="effect eff_1 text-decoration-none text-dark text-uppercase">
+              <button data-effectid="1" data-effectname="` + element.LookName + `"
+                class="productPageBtn lookBtn text-decoration-none text-dark text-uppercase">
                 ${element.LookUrl}  
-              </a>
+              </button>
             </li>
       `
       });
@@ -328,10 +356,10 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       data.data.forEach(element => {
         allSpaceList.innerHTML += `
           <li>
-              <a href="javascript:void(0)" data-spaceid="1" data-spacename="` + element.SpaceName + `"
-                class="space sp_1 text-decoration-none text-dark text-uppercase">
+              <button data-spaceid="1" data-spacename="` + element.SpaceName + `"
+                class="productPageBtn spaceBtn space sp_1 text-decoration-none text-dark text-uppercase">
                 ${element.SpaceUrl} 
-              </a>
+              </button>
             </li>
       `
       });
@@ -353,9 +381,9 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       data.data.forEach(element => {
         allFinishList.innerHTML += `
             <li>
-              <a href="javascript:void(0)" class="finish fn_1 text-decoration-none text-dark text-uppercase">
+              <button class="productPageBtn finishBtn text-decoration-none text-dark text-uppercase">
               ${element.FinishUrl} 
-              </a>
+              </button>
             </li>
       `
       });
@@ -364,7 +392,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       console.error(error.message);
     });
 
-    
+
   apiURL = `https://kingdomceramic.com/ad_kingdomceramic/API/TypeApi`;
   fetch(apiURL, options)
     .then(response => {
@@ -378,16 +406,103 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       data.data.forEach(element => {
         allTypeList.innerHTML += `
             <li>
-              <a class="text-decoration-none text-dark text-uppercase" href="Type/`+ element.TypeName + `">${element.TypeUrl}</a>
+              <button class="productPageBtn typeBtn text-decoration-none text-dark text-uppercase" href="Type/`+ element.TypeName + `">${element.TypeUrl}</button>
             </li>
       `
+      });
+      let allTypeBtns = document.querySelectorAll(".typeBtn");
+      allTypeBtns.forEach(function (element) {
+        element.addEventListener('click', () => {
+          typeOfTiles = element.innerText.toLowerCase();
+          data = { ...data, typeOfTiles: element.innerText.toLowerCase() }
+          filteredData();
+        })
       });
     })
     .catch(error => {
       console.error(error.message);
-    }); 
+    });
 
-</script>
+  const displayAllProducts = () => {
+    apiURL = `https://kingdomceramic.com/ad_kingdomceramic/API/ProductApi`;
+    fetch(apiURL, options)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`Failed to fetch data from the API. Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        let allProductsDiv = document.getElementById('allProductsDiv');
+        data.data.forEach(element => {
+          allProductsDiv.innerHTML += `
+              <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
+              style="transform: translate(0px, 0px); opacity: 1">
+              <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+                <img src="${element.ImagePath}" alt=""
+                  class="card-img-top tilesImg img-fuild" style="transform: rotate(0deg)" />
+                <div class="card-body">
+                  <p class="card-text">${element.ProductName}</p>
+                </div>
+              </div>
+            </div>
+        `
+        });
+      })
+      .catch(error => {
+        console.error(error.message);
+      });
+  }
+
+
+  const filteredData = () => {
+    console.warn(data);
+    options = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    };
+    apiURL = `https://kingdomceramic.com/ad_kingdomceramic/API/ProductApi`;
+    console.warn(apiURL);
+    fetch(apiURL, options)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`Failed to fetch data from the API. Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.warn(options.body);
+        let allProductsDiv = document.getElementById('allProductsDiv');
+        allProductsDiv.innerHTML = '';
+        data.data.forEach(element => {
+          allProductsDiv.innerHTML += `
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
+            style="transform: translate(0px, 0px); opacity: 1">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+              <img src="${element.ImagePath}" alt=""
+                class="card-img-top tilesImg img-fuild" style="transform: rotate(0deg)" />
+              <div class="card-body">
+                <p class="card-text">${element.ProductName}</p>
+              </div>
+            </div>
+          </div>
+      `
+        });
+      })
+      .catch(error => {
+        console.error(error.message);
+      });
+
+
+  }
+
+
+</script> -->
+
+<script src="product.js"></script>
 
 <?php
 include_once __DIR__ . '/c_layout/Footer/footer.php';
