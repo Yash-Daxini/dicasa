@@ -80,27 +80,27 @@ echo "
             <ul>
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
-                ><a href='Type/porcelain-tiles'>PORCELAIN TILES</a>
+                ><a href='products.php'>PORCELAIN TILES</a>
               </li>
 
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
-                ><a href='Type/porcelain-slabs'>PORCELAIN SLABS</a>
+                ><a href='products.php'>PORCELAIN SLABS</a>
               </li>
 
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
-                ><a href='Type/wall-tiles'>WALL TILES</a>
+                ><a href='products.php'>WALL TILES</a>
               </li>
 
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
-                ><a href='Type/outdoor-tiles'>OUTDOOR TILES</a>
+                ><a href='products.php'>OUTDOOR TILES</a>
               </li>
 
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
-                ><a href='Type/spc-lvt-vinyl-flooring'
+                ><a href='products.php'
                   >SPC-LVT VINYL FLOORING</a
                 >
               </li>

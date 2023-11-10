@@ -291,7 +291,7 @@ const displayAllProducts = () => {
         allProductsDiv.innerHTML += `
               <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
               style="transform: translate(0px, 0px); opacity: 1">
-              <a href='product-details.php?&ProductUrl=${element.ProductUrl}'>
+              <a class="text-decoration-none" href='product-details.php?&ProductUrl=${element.ProductUrl}'>
               <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
                 <img src="https://kingdomceramic.com/Images/product/${element.ImagePath}" alt=""
                   class="card-img-top tilesImg img-fuild" style="transform: rotate(0deg)" />

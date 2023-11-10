@@ -28,6 +28,17 @@ a {
   color: #2f2f2f;
   text-decoration: underline;
 }
+.productDetailsDivImg{
+  transform: rotate(90deg);
+}
+.productDetailsDivImg img{
+  height: 350px;
+  width: 350px;
+} 
+.productDetailsDiv{
+  height: 350px;
+  width: 400px;
+}
 .productPageBtnUnderLine{
   position: relative;
   transition: .7s;

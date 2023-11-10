@@ -33,11 +33,11 @@ document.addEventListener("DOMContentLoaded", function () {
         let allProductsDiv = document.getElementById("product-details");
         data.data.forEach((element) => {
           allProductsDiv.innerHTML += `
-            <div class="d-flex justify-content-center align-items-center gap-5 flex-wrap">
-                <div class="card border-light shadow-lg mb-3" style="width: 18rem;">
+            <div class="d-flex justify-content-center gap-5 align-items-center flex-wrap">
+                <div class="card border-dark shadow-lg mb-3 productDetailsDivImg">
                     <img src="https://kingdomceramic.com/Images/product/${element.ImagePath}" class="card-img-top" alt="Can't Load Image">
                 </div>
-                <div class="card border-0 shadow-lg text-center p-5" style="width: 18rem; font-size:20px">
+                <div class="card border-0 productDetailsDiv shadow-lg text-center p-4" style=" font-size:20px">
                     <h5 class="card-text fw-900">${element.ProductName}</h5>
                     <br>
                     <br>

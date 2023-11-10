@@ -27,7 +27,7 @@ echo "
             </li>
             <li class='nav-item "?> <?php if($page == "aboutus.php") echo "active" ?> 
             <?php echo "'><a class='nav-link' href='aboutus.php'>About us</a></li>
-            <li class='nav-item "?> <?php if($page == "products.php") echo "active" ?> 
+            <li class='nav-item "?> <?php if($page == "products.php"||$page == "product-details.php" ) echo "active" ?> 
             <?php echo "'><a class='nav-link' href='products.php'>Products</a></li>
             <li class='nav-item "?> <?php if($page == "catalouge.php") echo "active" ?> 
             <?php echo "'><a class='nav-link' href='catalouge.php'>E-Catalouge</a></li>

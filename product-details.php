@@ -5,7 +5,7 @@ $MetaOgImage = "dfsa";
 $MetaKeywords = "fas";
 $MetaOgImage = "fd";
 $MetaOgDescription = "fdf";
-$Title = "Dicasa Ceramic - Products-Details";
+$Title = "Products-Details - Dicasa Ceramic";
 include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
 
@@ -14,7 +14,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     background: url('furni/images/P7.jpg');
   ">
     <div>
-        <h1 class="text-white" style="filter: brightness(1);">Packing-Details</h1>
+        <h1 class="text-white" style="filter: brightness(1);">Products-Details</h1>
     </div>
 </div>
 
