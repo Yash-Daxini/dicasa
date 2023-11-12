@@ -1,5 +1,6 @@
 <?php
 echo "
+    <link rel='icon' type='image/x-icon' href='furni/images/favicon.ico'>
     <link href='furni/css/bootstrap.min.css' rel='stylesheet' />
     <link
       href='ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css'
