@@ -25,14 +25,15 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
       <!-- Start Column 2 -->
       <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-        <a class="product-item" href="cart.html">
+        <div class="product-item text-decoration-none">
           <img src="https://kingdomceramic.com/Images/catalouge/Screenshot-_171_.webp"
             class="img-fluid rounded-3 tilesImg product-thumbnail" />
-
+            <a class="text-decoration-none" href="furni/documents/COMPANY INFORMATION SHEET-Dicasa.docx" download>
           <span class="icon-cross d-flex justify-content-center align-items-center">
             <i class="bi bi-cloud-download"></i>
           </span>
-        </a>
+            </a>
+        </div>
       </div>
       <!-- End Column 2 -->
 

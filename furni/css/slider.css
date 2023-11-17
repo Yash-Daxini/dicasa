@@ -3236,15 +3236,14 @@ html.boxed .rd-navbar--is-clone {
 	transition: .3s all ease;
 	transform: translateY(100px);
 }
-
 .ui-to-top, .ui-to-top:active, .ui-to-top:focus {
-	color: #fff;
-	background: #f39b00;
+	color: #000;
+	background: rgb(204, 203, 203);
 }
 
 .ui-to-top:hover {
 	color: #fff;
-	background: #514f4c;
+	background: #000;
 }
 
 .ui-to-top.active {

@@ -43,10 +43,10 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 </style>
 
 <div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
-        background: url('furni/images/ITAGRES - Natural edited art.jpg');
+        background: url('furni/images/technical details.png');
       ">
   <div>
-    <h1 class="text-white">Technical-Specification</h1>
+    <h1 class="text-black-50">Technical-Specification</h1>
   </div>
 </div>
 

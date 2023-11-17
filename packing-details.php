@@ -43,14 +43,14 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 </style>
 
 <div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
-        background: url('furni/images/AREZZO WHITE Final Chnages 4400px.jpg');
+        background: url('furni/images/packing details.jpg');
       ">
   <div>
     <h1 class="text-white">Packing-Details</h1>
   </div>
 </div>
 
-<div class="container text-center table-responsive my-5">
+<div class="container-fluid text-center table-responsive my-5">
   <h3></h3>
   <table class="table table-striped table-hover table-responsive" id="customers">
     <thead>

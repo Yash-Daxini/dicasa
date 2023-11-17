@@ -94,8 +94,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
       <div class="col-lg-5">
         <div class="img-wrap d-flex justify-content-center align-items-center flex-column flex-wrap gap-5">
-          <!-- <img src="furni/images/P 1.jpg" alt="Image" class="img-fluid w-75" /> -->
-          <img src="furni/images/P8.jpg" alt="Image" class="img-fluid w-100" />
+          <img src="furni/images/aboutus1.jpg" alt="Image" class="img-fluid w-75" />
+          <img src="furni/images/aboutus2.jpg" alt="Image" class="img-fluid w-75" />
         </div>
       </div>
     </div>

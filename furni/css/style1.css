@@ -759,8 +759,8 @@ hr {
 
 .button-default:hover, .button-default:active {
 	color: #fff;
-	background-color: #f39b00;
-	border-color: #f39b00;
+	background-color: #000;
+	border-color: #000;
 }
 
 .button-primary, .button-primary:focus, .button-primary:active {
@@ -13238,12 +13238,12 @@ html.boxed .rd-navbar--is-clone {
 
 .ui-to-top, .ui-to-top:active, .ui-to-top:focus {
 	color: #fff;
-	background: #f39b00;
+	background: #000;
 }
 
 .ui-to-top:hover {
 	color: #fff;
-	background: #514f4c;
+	background: #000;
 }
 
 .ui-to-top.active {

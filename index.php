@@ -17,7 +17,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     data-custom-next="#swiper-next" data-custom-slide-effect="interLeaveEffect">
     <div class="swiper-wrapper">
       <div class="swiper-slide bg-gray-dark">
-        <div class="slide-inner" style="background-image: url(furni/images/slider-slide-1-1920x749.jpg)">
+        <div class="slide-inner" 
+        style="background-image: url(furni/images/slider1.jpg)">
           <div class="swiper-slide-caption">
             <div class="container">
               <h1 data-caption-animate="fadeInUpSmall">
@@ -28,26 +29,28 @@ include_once __DIR__ . '/c_layout/Header/header.php';
                 design agency helping people across the USA to improve their
                 houses’ interior using the best ceramics.
               </p>
-              <a class="button btn-outline-secondary btn-white-outline" href="#" data-caption-animate="fadeInRightSmall"
-                data-caption-delay="550">View all Collections</a>
+              <!-- <a class="button btn-outline-secondary btn-white-outline" href="#" data-caption-animate="fadeInRightSmall"
+                data-caption-delay="550">View all Collections
+              </a> -->
             </div>
           </div>
         </div>
       </div>
       <div class="swiper-slide bg-gray-dark">
-        <div class="slide-inner" style="background-image: url(furni/images/slider-slide-2-1920x749.jpg)">
+        <div class="slide-inner" style="background-image: url(furni/images/slider2.jpg)">
           <div class="swiper-slide-caption">
             <div class="container">
-              <h1 data-caption-animate="fadeInUpSmall">
+              <h1 class="text-muted" data-caption-animate="fadeInUpSmall">
                 Transforming Your Space
               </h1>
-              <p class="big" style="max-width: 520px" data-caption-animate="fadeInRightSmall" data-caption-delay="300">
+              <p class="big text-muted" style="max-width: 520px" data-caption-animate="fadeInRightSmall" data-caption-delay="300">
                 Our company has been the leading provider of quality tiles
                 and tile design services to customers since 1999. We pay
                 attention to every aspect of our work.
               </p>
-              <a class="button button-primary" href="#" data-caption-animate="fadeInRightSmall"
-                data-caption-delay="550">View all Collections</a>
+              <!-- <a class="button button-primary" href="#" data-caption-animate="fadeInRightSmall"
+                data-caption-delay="550">View all Collections
+              </a> -->
             </div>
           </div>
         </div>
@@ -64,8 +67,9 @@ include_once __DIR__ . '/c_layout/Header/header.php';
                 performance features that allow you to choose just what you
                 need for your new interior.
               </p>
-              <a class="button button-primary" href="#" data-caption-animate="fadeInRightSmall"
-                data-caption-delay="550">View all Collections</a>
+              <!-- <a class="button button-primary" href="#" data-caption-animate="fadeInRightSmall"
+                data-caption-delay="550">View all Collections
+              </a> -->
             </div>
           </div>
         </div>

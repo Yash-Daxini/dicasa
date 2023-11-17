@@ -34,7 +34,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           </div>
           <!-- /.icon -->
           <div class="service-contents">
-            <p>201, Bilva trade hub,<br>Near mahendranagar circle,<br> 8-A national highway,<br> Morbi - 363642 Gujarat, India</p>
+            <p>202, Bilva trade hub,<br>Near mahendranagar circle,<br> 8-A national highway,<br> Morbi - 363642 Gujarat, India</p>
           </div>
           <!-- /.service-contents-->
         </div>
