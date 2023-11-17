@@ -17,8 +17,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     data-custom-next="#swiper-next" data-custom-slide-effect="interLeaveEffect">
     <div class="swiper-wrapper">
       <div class="swiper-slide bg-gray-dark">
-        <div class="slide-inner" 
-        style="background-image: url(furni/images/slider1.jpg)">
+        <div class="slide-inner" style="background-image: url(furni/images/slider1.jpg)">
           <div class="swiper-slide-caption">
             <div class="container">
               <h1 data-caption-animate="fadeInUpSmall">
@@ -43,7 +42,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
               <h1 class="text-muted" data-caption-animate="fadeInUpSmall">
                 Transforming Your Space
               </h1>
-              <p class="big text-muted" style="max-width: 520px" data-caption-animate="fadeInRightSmall" data-caption-delay="300">
+              <p class="big text-muted" style="max-width: 520px" data-caption-animate="fadeInRightSmall"
+                data-caption-delay="300">
                 Our company has been the leading provider of quality tiles
                 and tile design services to customers since 1999. We pay
                 attention to every aspect of our work.
@@ -89,14 +89,13 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     <div class="row justify-content-center">
       <div class="col-md-10" data-zanim-xs='{"delay":0.3}' style="transform: translate(0px, 0px); opacity: 1">
         <h4 class="mb-4">
-          Welcome to The Dicasa Ceramic , where ceramic craftsmanship meets
-          innovation.
+          Explore the World of Dicasa Ceramics: Merging Traditional Craftsmanship with Modern Ingenuity.
         </h4>
         <p>
-          As a leading ceramic company, we are dedicated to redefining
-          excellence in the world of ceramic design.With a passion for
-          quality and a commitment to creativity, we strive to bring you
-          exceptional ceramic products that transcend expectations.
+          At Dicasa Ceramics, we stand at the forefront of the ceramic industry, committed to reshaping standards in
+          ceramic design. Fueled by a dedication to excellence and fueled by creativity, our mission is to deliver
+          ceramic products that go beyond the ordinary. Immerse yourself in a journey of innovation and craftsmanship
+          with Dicasa Ceramics.
         </p>
       </div>
     </div>
@@ -110,11 +109,9 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Porcelain</h5>
             <p class="text-justify">
-              Porcelain tiles are crafted using high-quality materials and
-              advanced manufacturing techniques. These tiles are known for
-              their exceptional durability, making them ideal for
-              high-traffic areas like living rooms, kitchens, and commercial
-              spaces.
+              Our porcelain tiles stand out for their unparalleled durability, making them the perfect choice for
+              high-traffic environments such as living rooms, kitchens, and commercial spaces. Crafted with precision
+              and using advanced techniques, these tiles offer a seamless blend of quality and resilience.
             </p>
           </div>
         </div>
@@ -128,9 +125,12 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Big Slab</h5>
             <p class="text-justify">
-              Big slab tiles are the epitome of modern design. These
-              large-format tiles create a seamless and spacious appearance,
-              making them an excellent choice for contemporary interiors.
+
+              Experience Modern Elegance with Large Slab Tiles: Elevating Contemporary Design to New Heights.
+
+              Big slab tiles embody the essence of modern aesthetics. Their expansive format produces a seamless and
+              spacious look, establishing them as an exceptional option for contemporary interiors. Choose these tiles
+              to elevate your space with a touch of sophistication and a nod to contemporary design trends.
             </p>
           </div>
         </div>
@@ -144,10 +144,10 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Wall-Tiles</h5>
             <p class="text-justify">
-              Wall tiles are specifically designed to elevate the aesthetics
-              of walls in any space. With an extensive selection of colors,
-              patterns, and textures, wall tiles add a touch of style and
-              personality to your interiors.
+              Our wall tiles are meticulously crafted to enhance the visual appeal of any wall in your space. Offering a
+              wide array of colors, patterns, and textures, these tiles infuse a sense of style and individuality into
+              your interiors. Transform your walls into artistic canvases that reflect your unique taste and elevate the
+              overall aesthetics of your living or working space.
             </p>
           </div>
         </div>
@@ -161,10 +161,10 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Outdoor Tiles</h5>
             <p class="text-justify">
-              Outdoor tiles are engineered to withstand the elements while
-              maintaining their beauty. These weather-resistant tiles are
-              perfect for transforming patios, pool decks, and outdoor
-              entertaining areas into inviting havens.
+              Crafted to endure the elements without compromising on beauty, our outdoor tiles are the ideal choice for
+              elevating patios, pool decks, and outdoor entertainment areas. Unleash the potential of your outdoor
+              spaces by choosing these weather-resistant tiles, creating inviting havens that withstand the test of time
+              while maintaining their aesthetic allure.
             </p>
           </div>
         </div>
@@ -180,10 +180,9 @@ include_once __DIR__ . '/c_layout/Header/header.php';
               SPC/LVT Vinyl Flooring
             </h5>
             <p class="text-justify">
-              SPC (Stone Plastic Composite) and LVT (Luxury Vinyl Tile)
-              flooring offer a fantastic blend of beauty and functionality.
-              SPC boasts excellent water resistance and durability, making
-              it perfect for high-moisture areas.
+              This flooring duo seamlessly combines beauty and functionality. SPC, renowned for its outstanding water
+              resistance and durability, emerges as the ideal choice for spaces prone to high moisture levels. Elevate
+              your interiors with the perfect synergy of aesthetics and performance, courtesy of SPC and LVT flooring.
             </p>
           </div>
         </div>

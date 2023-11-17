@@ -10,7 +10,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
 
 <div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
-      background: url('furni/images/SILAS BIANCO 4400px.jpg');
+      background: url('furni/images/P4.jpg');
     ">
   <div>
     <h1 class="text-white">Contact Us</h1>
@@ -19,10 +19,10 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
 <div class="container my-3">
 
-  <div class="d-flex justify-content-center align-items-center flex-wrap gap-5">
+  <div class="my-5 d-flex justify-content-center align-items-center flex-wrap gap-5">
     <!-- <div class="col-md-12"> -->
     <div class="">
-      <div class="">
+      <div class="p-2 contactUsDivs">
         <div class="service no-shadow align-items-center link horizontal d-flex active" data-aos="fade-left"
           data-aos-delay="0">
           <div class="service-icon color-1 mb-4">
@@ -42,7 +42,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       </div>
     </div>
     <div class="">
-      <div class="">
+      <div class="p-2 contactUsDivs">
         <div class="service no-shadow align-items-center link horizontal d-flex active" data-aos="fade-left"
           data-aos-delay="0">
           <div class="service-icon color-1 mb-4">
@@ -63,7 +63,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       </div>
     </div>
     <div class="">
-      <div class="">
+      <div class="p-2 contactUsDivs">
         <div class="service no-shadow align-items-center link horizontal d-flex active" data-aos="fade-left"
           data-aos-delay="0">
           <div class="service-icon color-1 mb-4">

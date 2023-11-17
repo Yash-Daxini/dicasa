@@ -10,7 +10,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
 
 <div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
-      background: url('furni/images/P8.jpg');
+      background: url('furni/images/P3.jpg');
     ">
   <div>
     <h1 class="text-white">About Us</h1>

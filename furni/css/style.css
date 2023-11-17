@@ -28,6 +28,16 @@ a {
   color: #2f2f2f;
   text-decoration: underline;
 }
+.contactUsDivs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: #000;
+  border: 2px dotted #000;
+  height: 120px;
+}
 .productDetailsDivImg{
   transform: rotate(90deg);
 }
