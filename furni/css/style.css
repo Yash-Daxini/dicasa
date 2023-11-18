@@ -423,9 +423,13 @@ a.more {
 }
 .productCard{
   width: auto;
+  box-shadow: 0 10px 20px 5px rgba(0,0,0,0.1);
 }
 .productImage{
   width: auto;
+}
+.products{
+  font-size: 14px;
 }
 .productSection .productImages {
   filter: blur(0.1px);

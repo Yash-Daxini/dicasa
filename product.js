@@ -46,7 +46,7 @@ const displayAllSize = () => {
         mapForSize[element.SizeName] = element.SizeUrl;
         allSizesList.innerHTML += `
                 <li>
-                  <button class="productPageBtn sizeBtn text-dark">
+                  <button class="productPageBtn sizeBtn text-dark fw-medium">
                     ${element.SizeName}</button>
                 </li>
           `;
@@ -93,7 +93,7 @@ const displayAllLook = () => {
                     <button data-effectid="1" data-effectname="` +
           element.LookName +
           `"
-                      class="productPageBtn lookBtn text-decoration-none text-dark">
+                      class="productPageBtn lookBtn text-decoration-none text-dark fw-medium">
                       ${element.LookName}  
                     </button>
                   </li>
@@ -141,7 +141,7 @@ const displayAllSpace = () => {
                   <button data-spaceid="1" data-spacename="` +
           element.SpaceName +
           `"
-                    class="productPageBtn spaceBtn space sp_1 text-decoration-none text-dark">
+                    class="productPageBtn spaceBtn space sp_1 text-decoration-none text-dark fw-medium">
                     ${element.SpaceName} 
                   </button>
                 </li>
@@ -185,7 +185,7 @@ const displayAllFinish = () => {
         mapForFinish[element.FinishName] = element.FinishUrl;
         allFinishList.innerHTML += `
                 <li>
-                  <button class="productPageBtn finishBtn text-decoration-none text-dark">
+                  <button class="productPageBtn finishBtn text-decoration-none text-dark fw-medium">
                   ${element.FinishName} 
                   </button>
                 </li>
@@ -229,7 +229,7 @@ const displayAllTypes = () => {
         mapForType[element.TypeName] = element.TypeUrl;
         allTypeList.innerHTML += `
                 <li>
-                  <button class="productPageBtn typeBtn text-decoration-none text-dark">${element.TypeName}</button>
+                  <button class="productPageBtn typeBtn text-decoration-none text-dark fw-medium">${element.TypeName}</button>
                 </li>
           `;
       });
@@ -291,12 +291,12 @@ const displayAllProducts = () => {
         allProductsDiv.innerHTML += `
               <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
               style="transform: translate(0px, 0px); opacity: 1">
-              <a class="text-decoration-none" href='product-details.php?&ProductUrl=${element.ProductUrl}'>
-              <div class="card productCard border-light shadow-lg mb-3 d-flex justify-content-center align-items-center">
+              <a class="text-decoration-none text-dark" href='product-details.php?&ProductUrl=${element.ProductUrl}'>
+              <div class="d-flex justify-content-center align-items-center productCard overflow-hidden border-light text-center shadow-lg mb-3 flex-column flex-wrap">
                 <img src="https://kingdomceramic.com/Images/product/${element.ImagePath}" alt=""
-                  class="productImage img-fuild" style="transform: rotate(0deg)" />
-                <div class="card-body">
-                  <p class="card-text">${element.ProductName}</p>
+                  class="productImage" style="transform: rotate(0deg)" />
+                <div class="card-body my-2">
+                  <p class="card-text fw-medium">${element.ProductName}</p>
                 </div>
               </div>
               </a>
@@ -336,11 +336,11 @@ const filteredData = () => {
         allProductsDiv.innerHTML += `
             <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center">
+            <div class="d-flex justify-content-center align-items-center productCard overflow-hidden border-light text-center shadow-lg mb-3 flex-column flex-wrap">
               <img src="https://kingdomceramic.com/Images/product/${element.ImagePath}" alt=""
                 class="card-img-top productImage tilesImg img-fuild" style="transform: rotate(0deg)" />
-              <div class="card-body">
-                <p class="card-text">${element.ProductName}</p>
+              <div class="card-body my-2">
+                <p class="card-text fw-medium">${element.ProductName}</p>
               </div>
             </div>
           </div>
@@ -355,10 +355,6 @@ const filteredData = () => {
       console.error(error.message);
     });
 };
-
-// window.addEventListener("load", function () {
-  // Get all the image elements with the "product-image" class
-// });
 
 const manageImageSize = () => {
   var images = document.querySelectorAll(".productImage");
@@ -390,7 +386,7 @@ const manageImageSize = () => {
           img.style.transform = "rotate(90deg)"; // Reset rotation
           img.style.marginTop = "-" + gimgHeight / 4 + "px";
           img.style.marginBottom = "-" + gimgHeight / 4 + "px";
-          img.style.marginLeft = gimgHeight / 4 + "px";
+          // img.style.marginLeft = gimgHeight / 4 + "px";
         }
       } else if (imgWidth > imgHeight) {
         // img.style.height = '250px';
