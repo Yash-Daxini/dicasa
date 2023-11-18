@@ -3,9 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
   var urlParams = new URLSearchParams(currentUrl);
   var ProductUrl = urlParams.get("ProductUrl");
 
-  // Display or use the parameter values as needed
-  console.warn("param1:", ProductUrl);
-
   const displayAllProducts = () => {
     let apiURL = `https://kingdomceramic.com/ad_kingdomceramic/API/SelectedProductApi`;
     const apiKey = "ADMIN123123";

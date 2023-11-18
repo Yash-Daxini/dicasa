@@ -292,9 +292,9 @@ const displayAllProducts = () => {
               <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
               style="transform: translate(0px, 0px); opacity: 1">
               <a class="text-decoration-none" href='product-details.php?&ProductUrl=${element.ProductUrl}'>
-              <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+              <div class="card productCard border-light shadow-lg mb-3 d-flex justify-content-center align-items-center">
                 <img src="https://kingdomceramic.com/Images/product/${element.ImagePath}" alt=""
-                  class="card-img-top tilesImg img-fuild" style="transform: rotate(0deg)" />
+                  class="productImage img-fuild" style="transform: rotate(0deg)" />
                 <div class="card-body">
                   <p class="card-text">${element.ProductName}</p>
                 </div>
@@ -303,6 +303,7 @@ const displayAllProducts = () => {
             </div>
         `;
       });
+      manageImageSize();
     })
     .catch((error) => {
       console.error(error.message);
@@ -335,9 +336,9 @@ const filteredData = () => {
         allProductsDiv.innerHTML += `
             <div class="col-lg-4 col-md-6 col-sm-6 col-12 my-4" data-zanim-xs='{"delay":0.1}'
             style="transform: translate(0px, 0px); opacity: 1">
-            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center" style="width: 18rem;">
+            <div class="card border-light shadow-lg mb-3 d-flex justify-content-center align-items-center">
               <img src="https://kingdomceramic.com/Images/product/${element.ImagePath}" alt=""
-                class="card-img-top tilesImg img-fuild" style="transform: rotate(0deg)" />
+                class="card-img-top productImage tilesImg img-fuild" style="transform: rotate(0deg)" />
               <div class="card-body">
                 <p class="card-text">${element.ProductName}</p>
               </div>
@@ -348,8 +349,108 @@ const filteredData = () => {
       if (data.data.length === 0) {
         allProductsDiv.innerHTML = `<h1 class="text-dark">No data found</h1>`;
       }
+      manageImageSize();
     })
     .catch((error) => {
       console.error(error.message);
     });
+};
+
+// window.addEventListener("load", function () {
+  // Get all the image elements with the "product-image" class
+// });
+
+const manageImageSize = () => {
+  var images = document.querySelectorAll(".productImage");
+
+  // Loop through each image
+  images.forEach(function (img) {
+    // Create an image object to get the actual image dimensions
+    var imageObj = new Image();
+
+    // console.warn(imageObj);
+
+    // Set the image source to the same source as the displayed image
+    imageObj.src = img.src;
+    console.log(imageObj);
+    // Once the image has loaded, calculate the aspect ratio and apply styles
+    imageObj.onload = function () {
+      var imgWidth = imageObj.width;
+      var imgHeight = imageObj.height;
+
+      var gimgHeight = (imgHeight / 100) * 37;
+      var gimgWidth = imgWidth % 29;
+      // Check if height is greater than width
+
+      if (imgHeight > imgWidth) {
+        if (imgHeight - imgWidth > 50) {
+          // Height is greater than width
+          img.style.height = gimgHeight + "px";
+          img.style.width = "auto"; // Automatically adjust width to maintain aspect ratio
+          img.style.transform = "rotate(90deg)"; // Reset rotation
+          img.style.marginTop = "-" + gimgHeight / 4 + "px";
+          img.style.marginBottom = "-" + gimgHeight / 4 + "px";
+          img.style.marginLeft = gimgHeight / 4 + "px";
+        }
+      } else if (imgWidth > imgHeight) {
+        // img.style.height = '250px';
+
+        // Width is greater than height
+        // img.style.width = '250px';
+        // img.style.height = 'auto'; // Automatically adjust height to maintain aspect ratio
+        img.style.transform = "rotate(0deg)"; // Reset rotation
+      } else {
+        // Width and height are equal or within 250px, no rotation needed
+        // img.style.width = '250px';
+        // img.style.height = 'auto';
+        img.style.transform = "rotate(0deg)";
+      }
+    };
+  });
+
+  // 800 * 1600 mate
+  var images = document.querySelectorAll(".eightysxixty");
+
+  // Loop through each image
+  images.forEach(function (img) {
+    // Create an image object to get the actual image dimensions
+    var imageObj = new Image();
+
+    // Set the image source to the same source as the displayed image
+    imageObj.src = img.src;
+    console.log(imageObj);
+    // Once the image has loaded, calculate the aspect ratio and apply styles
+    imageObj.onload = function () {
+      var imgWidth = imageObj.width;
+      var imgHeight = imageObj.height;
+
+      var gimgHeight = (imgHeight / 127) * 37;
+      var gimgWidth = imgWidth % 29;
+      // Check if height is greater than width
+
+      if (imgHeight > imgWidth) {
+        if (imgHeight - imgWidth > 50) {
+          // Height is greater than width
+          img.style.height = gimgHeight + "px";
+          img.style.width = "auto"; // Automatically adjust width to maintain aspect ratio
+          img.style.transform = "rotate(90deg)"; // Reset rotation
+          img.style.marginTop = "-" + gimgHeight / 4 + "px";
+          img.style.marginBottom = "-" + gimgHeight / 4 + "px";
+          img.style.marginLeft = gimgHeight / 4 + "px";
+        }
+      } else if (imgWidth > imgHeight) {
+        // img.style.height = '250px';
+
+        // Width is greater than height
+        // img.style.width = '250px';
+        // img.style.height = 'auto'; // Automatically adjust height to maintain aspect ratio
+        img.style.transform = "rotate(0deg)"; // Reset rotation
+      } else {
+        // Width and height are equal or within 250px, no rotation needed
+        // img.style.width = '250px';
+        // img.style.height = 'auto';
+        img.style.transform = "rotate(0deg)";
+      }
+    };
+  });
 };
