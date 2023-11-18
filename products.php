@@ -9,13 +9,13 @@ $Title = "Products - Dicasa Ceramic";
 include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
 
-<div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
+<!-- <div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
     background: url('furni/images/P7.jpg');
   ">
   <div>
     <h1 class="text-white" style="filter: brightness(1);">Products</h1>
   </div>
-</div>
+</div> -->
 
 
 <div class="container products my-5">

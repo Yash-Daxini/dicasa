@@ -9,13 +9,13 @@ $Title = "Dicasa Ceramic - About US";
 include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
 
-<div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
+<!-- <div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
       background: url('furni/images/P3.jpg');
     ">
   <div>
     <h1 class="text-white">About Us</h1>
   </div>
-</div>
+</div> -->
 
 <div class="why-choose-section">
   <div class="container">
@@ -98,6 +98,36 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           <img src="furni/images/aboutus2.jpg" alt="Image" class="img-fluid w-75" />
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid text-center">
+  <h1 class="mb-5 text-secondary-emphasis fs-3">Our Strength</h1>
+  <div class="d-flex justify-content-center align-items-center flex-wrap gap-5 mb-5">
+    <div class="smallCardForAboutUS shadow-lg p-3 mb-5 rounded">
+      <h5 class="fw-bold m-3">D</h5>
+      <p class="fw-semibold">Dazzling Variety</p>
+    </div>
+    <div class="smallCardForAboutUS shadow-lg p-3 mb-5 rounded">
+      <h5 class="fw-bold m-3">I</h5>
+      <p class="fw-semibold">Impeccable Quality</p>
+    </div>
+    <div class="smallCardForAboutUS shadow-lg p-3 mb-5 rounded">
+      <h5 class="fw-bold m-3">C</h5>
+      <p class="fw-semibold">Cutting-edge Innovation</p>
+    </div>
+    <div class="smallCardForAboutUS shadow-lg p-3 mb-5 rounded">
+      <h5 class="fw-bold m-3">A</h5>
+      <p class="fw-semibold">Artisanal Craftsmanship</p>
+    </div>
+    <div class="smallCardForAboutUS shadow-lg p-3 mb-5 rounded">
+      <h5 class="fw-bold m-3">S</h5>
+      <p class="fw-semibold">Sustainable Solutions</p>
+    </div>
+    <div class="smallCardForAboutUS shadow-lg p-3 mb-5 rounded">
+      <h5 class="fw-bold m-3">A</h5>
+      <p class="fw-semibold">Adaptable Designs</p>
     </div>
   </div>
 </div>
