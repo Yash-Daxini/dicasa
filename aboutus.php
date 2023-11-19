@@ -16,6 +16,11 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     <h1 class="text-white">About Us</h1>
   </div>
 </div> -->
+<div class="d-flex justify-content-center align-items-center">
+  <div>
+    <h1 class="m-5 text-secondary-emphasis fs-3">About Us</h1>
+  </div>
+</div>
 
 <div class="why-choose-section">
   <div class="container">
@@ -132,7 +137,31 @@ include_once __DIR__ . '/c_layout/Header/header.php';
   </div>
 </div>
 
-
+<div class="container text-center">
+  <h1 class="mb-5 text-secondary-emphasis fs-3">Our Goal</h1>
+  <div class="goalDiv d-flex justify-content-center align-items-center gap-5 flex-wrap mx-2">
+    <div class="cardForGoal shadow-lg p-3 mb-5 rounded">
+      <div class="icon shadow-lg p-3 mb-5">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <div class="content fw-medium text-justify">
+        To achieve global recognition as a reliable and trusted provider of high-quality ceramic products, known for our
+        commitment to excellence, integrity, and customer satisfaction.
+      </div>
+    </div>
+    <div class="cardForGoal shadow-lg p-3 mb-5 rounded">
+      <div class="icon shadow-lg p-3 mb-5">
+        <ion-icon name="medal-outline"></ion-icon>
+      </div>
+      <div class="content fw-medium text-justify">
+        A consistent stream of positive customer feedback and testimonials attests to our success in meeting and
+        surpassing the expectations of our valued clientele.
+      </div>
+    </div>
+  </div>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <?php
 include_once __DIR__ . '/c_layout/Footer/footer.php';
 ?>

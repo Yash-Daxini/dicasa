@@ -17,6 +17,12 @@ include_once __DIR__ . '/c_layout/Header/header.php';
   </div>
 </div> -->
 
+<div class="d-flex justify-content-center align-items-center">
+  <div>
+    <h1 class="m-5 text-secondary-emphasis fs-3">Products</h1>
+  </div>
+</div>
+
 
 <div class="container products my-5">
   <div class="row">

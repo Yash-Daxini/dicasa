@@ -9,11 +9,17 @@ $Title = "Dicasa Ceramic - Contact Us";
 include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
 
-<div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
+<!-- <div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
       background: url('furni/images/ZAYD TERRAZO EDITED ART.jpg');
     ">
   <div>
     <h1 class="text-white">Catalouge</h1>
+  </div>
+</div> -->
+
+<div class="d-flex justify-content-center align-items-center">
+  <div>
+    <h1 class="m-5 text-secondary-emphasis fs-3">Catalouge</h1>
   </div>
 </div>
 
