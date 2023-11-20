@@ -8,7 +8,6 @@ $MetaOgDescription = "fdf";
 $Title = "Dicasa Ceramic";
 include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
-<!-- <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"> -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!-- Swiper-->
 <section class="section swiper-slider_style-3 swiper-buttons-alternate">
@@ -41,8 +40,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
               <h1 class="" data-caption-animate="fadeInUpSmall">
                 Capturing Craftsmanship
               </h1>
-              <p class="big" style="max-width: 520px" data-caption-animate="fadeInRightSmall"
-                data-caption-delay="300">
+              <p class="big" style="max-width: 520px" data-caption-animate="fadeInRightSmall" data-caption-delay="300">
                 Discover the artistry behind every piece. Our skilled craftsmen bring passion and precision to create
                 ceramic masterpieces that redefine elegance.
               </p>
@@ -101,8 +99,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       <div class="col-lg-4 mb-4">
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
-            <img loading="lazy" style="height: 300px" class="img-fluid productImages"
-              src="furni/images/Product1.webp" alt="Residential" />
+            <img loading="lazy" style="height: 300px" class="img-fluid productImages" src="furni/images/Product1.webp"
+              alt="Residential" />
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Porcelain</h5>
@@ -117,8 +115,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       <div class="col-lg-4 mb-4 mt-4 mt-lg-0">
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
-            <img loading="lazy" style="height: 300px" class="img-fluid productImages"
-              src="furni/images/Product2.webp" alt="Commercial" />
+            <img loading="lazy" style="height: 300px" class="img-fluid productImages" src="furni/images/Product2.webp"
+              alt="Commercial" />
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Big Slab</h5>
@@ -136,8 +134,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       <div class="col-lg-4 mb-4 mt-4 mt-lg-0">
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
-            <img loading="lazy" style="height: 300px" class="img-fluid productImages"
-              src="https://kingdomceramic.com/assets/img/tilels/WALL-TILES.webp" alt="Hospitality" />
+            <img loading="lazy" style="height: 300px" class="img-fluid productImages" src="furni/images/Product3.webp"
+              alt="Hospitality" />
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Wall-Tiles</h5>
@@ -153,8 +151,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       <div class="col-lg-6 mt-4 mt-lg-0">
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
-            <img loading="lazy" style="height: 300px" class="img-fluid productImages"
-              src="furni/images/Product4.webp" alt="Residential" />
+            <img loading="lazy" style="height: 300px" class="img-fluid productImages" src="furni/images/Product4.webp"
+              alt="Residential" />
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Outdoor Tiles</h5>
@@ -170,8 +168,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       <div class="col-lg-6 mt-4 mt-lg-0">
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
-            <img loading="lazy" style="height: 300px" class="img-fluid productImages"
-              src="https://kingdomceramic.com/assets/img/tilels/photo_2023-08-14_20-46-42.jpg" alt="Hospitality" />
+            <img loading="lazy" style="height: 300px" class="img-fluid productImages" src="furni/images/Product5.webp"
+              alt="Hospitality" />
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">
@@ -330,7 +328,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
             <div class="item">
               <div class="row justify-content-center">
                 <div class="row mx-auto">
-                  <div class="testimonial col-lg-4 col-md-6 d-flex align-items-stretch text-center border-3">
+                  <div class="testimonial col-lg-4 col-md-6 d-flex align-items-stretch text-center">
                     <blockquote class="mb-5">
                       <div class="author-info">
                         <div class="author-pic">
@@ -464,6 +462,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     </div>
   </div>
 </div>
+
+<script src='furni/js/tiny-slider.js'></script>
 
 <?php
 include_once __DIR__ . '/c_layout/Footer/footer.php';

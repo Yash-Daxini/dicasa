@@ -155,6 +155,6 @@ echo "
           // Redirect to the WhatsApp URL
           window.open(whatsappURL, '_blank');
         });
-      </script>F
+      </script>
     ";
 ?>

@@ -337,14 +337,14 @@ a.more {
 }
 
 .testimonial {
-  transition: .3s;
-  transform: scaleZ(1);
+  transition: .1s;
+  /* transform: scaleZ(1); */
 }
 
 .testimonial:hover {
-  border: 2px solid #000;
+  border: 1px solid #000;
   border-radius: 10px;
-  transform: scaleZ(2);
+  /* transform: scaleZ(2); */
 }
 
 .hero {
