@@ -10,7 +10,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
 
 <!-- <div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
-      background: url('furni/images/ZAYD TERRAZO EDITED ART.jpg');
+      background: url('furni/images/ZAYD TERRAZO EDITED ART.webp');
     ">
   <div>
     <h1 class="text-white">Catalouge</h1>
@@ -47,7 +47,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       <!-- <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
             <a class="product-item" href="cart.html">
               <img
-                src="images/product-2.png"
+                src="images/product-2.webp"
                 class="img-fluid product-thumbnail"
               />
               <h3 class="product-title">Kruzo Aero Chair</h3>
@@ -64,7 +64,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       <!-- <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
             <a class="product-item" href="cart.html">
               <img
-                src="images/product-3.png"
+                src="images/product-3.webp"
                 class="img-fluid product-thumbnail"
               />
               <h3 class="product-title">Ergonomic Chair</h3>

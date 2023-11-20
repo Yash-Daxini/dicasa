@@ -11,7 +11,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
 
 <div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
-    background: url('furni/images/P7.jpg');
+    background: url('furni/images/P7.webp');
   ">
     <div>
         <h1 class="text-white" style="filter: brightness(1);">Products-Details</h1>

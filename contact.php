@@ -10,7 +10,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
 
 <!-- <div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
-      background: url('furni/images/P4.jpg');
+      background: url('furni/images/P4.webp');
     ">
   <div>
     <h1 class="text-white">Contact Us</h1>
@@ -103,24 +103,29 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       </div>
     </div>
     <div class="formDiv">
-      <form id="contactForm">
+      <form id="emailForm" class="contactForm">
+        <div id="feedback"></div>
         <div class="row">
           <div class="col-6">
             <div class="form-group">
-              <label class="text-black" for="fname">First name</label>
-              <input type="text" class="form-control" id="fname" />
+              <label class="text-black" for="fname">Name</label>
+              <input type="text" class="form-control" id="name" />
             </div>
           </div>
           <div class="col-6">
             <div class="form-group">
-              <label class="text-black" for="lname">Last name</label>
-              <input type="text" class="form-control" id="lname" />
+              <label class="text-black" for="Number">Mobile Number</label>
+              <input type="text" class="form-control" id="Number" />
             </div>
           </div>
         </div>
         <div class="form-group">
           <label class="text-black" for="email">Email address</label>
           <input type="email" class="form-control" id="email" />
+        </div>
+        <div class="form-group">
+          <label class="text-black" for="subject">Subject</label>
+          <input type="text" class="form-control" id="subject" />
         </div>
 
         <div class="form-group mb-5">
@@ -137,6 +142,135 @@ include_once __DIR__ . '/c_layout/Header/header.php';
   </div>
 
 </div>
+
+<script type="text/javascript">
+
+  document.getElementById('emailForm').addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent the form from submitting normally
+
+    // Gather data from the form
+    const name = document.getElementById('name').value;
+    const number = document.getElementById('Number').value;
+    const email = document.getElementById('email').value;
+    const subject = document.getElementById('subject').value;
+    const message = document.getElementById('message').value;
+
+    // Create email data
+    const emailData = {
+      "Host": "216.10.241.228",
+      "SenderEmail": "website@dicasaceramica.com",
+      "SenderEmailPassword": "pVs5Uy4inRQy5MA",
+      "ReciverEmail": "info@dicasaceramica.com",
+      "Subject": subject,
+      "Body": `Name: ${name}
+                            Number: ${number}
+                            Email: ${email}
+                            Message: ${message}`
+
+    };
+
+    const apiUrl = 'https://api.theuniqueitsolution.com/mail/Api/sendmailapi.php';
+
+    const headers = {
+      'Content-Type': 'application/json',
+    };
+
+    function toggleClassForField(fieldId, className, duration) {
+      const field = document.getElementById(fieldId);
+      field.classList.add(className);
+      setTimeout(() => {
+        field.classList.remove(className);
+      }, duration);
+    }
+
+    // Validation
+    const feedback = document.getElementById('feedback');
+    feedback.textContent = '';
+
+    if (!name || !email || !subject || !message || !number) {
+
+      if (!name) {
+        toggleClassForField('name', 'border-danger', 3000);
+      }
+      if (!number) {
+        toggleClassForField('Number', 'border-danger', 3000);
+      }
+      if (!email) {
+        toggleClassForField('email', 'border-danger', 3000);
+      }
+      if (!subject) {
+        toggleClassForField('subject', 'border-danger', 3000);
+      }
+      if (!message) {
+        toggleClassForField('message', 'border-danger', 3000);
+      }
+
+      showFeedback('Please fill in all required fields.', 'col-12 text-center py-2 border-warning border text-warning');
+      return;
+    }
+
+
+    if (!isValidEmail(email)) {
+      showFeedback('Please enter a valid email address.', ' col-12  text-center border-1 py-2 border-warning border text-warning');
+      return;
+    }
+
+    // Send the email data
+    fetch(apiUrl, {
+      method: 'POST',
+      headers: headers,
+      body: JSON.stringify(emailData)
+    })
+      .then(data => {
+        if (data.status) {
+          showFeedback('Message sent successfully', 'col-12  text-center border-1 py-2 border-primary border text-primary');
+          clearForm();
+        } else {
+          showFeedback('Message sending failed. Please try again later.', ' col-12  text-center border-1 py-2 border-danger border text-danger');
+        }
+      })
+      .catch(error => {
+        showFeedback('An error occurred while sending the message. Please try again later.', 'col-12  text-center border-1 py-2 error');
+      });
+  });
+
+  // console.warn("Done")
+
+  function isValidEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  }
+
+  function showFeedback(message, classNames) {
+    const feedback = document.getElementById('feedback');
+    feedback.textContent = message;
+    feedback.className = classNames;
+    setTimeout(() => {
+      feedback.textContent = '';
+      feedback.className = ''; // Remove all classes
+    }, 3000); // Remove feedback after 3 seconds (3000 milliseconds)
+  }
+
+  function clearForm() {
+    document.getElementById('name').value = '';
+    document.getElementById('Number').value = '';
+    document.getElementById('email').value = '';
+    document.getElementById('subject').value = '';
+    document.getElementById('message').value = '';
+  }
+
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+        pageLanguage: "en",
+        autoDisplay: "true",
+        layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL,
+      },
+      "google_translate_element"
+    );
+  }
+</script>
+
 
 <?php
 include_once __DIR__ . '/c_layout/Footer/footer.php';

@@ -10,7 +10,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 ?>
 
 <!-- <div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
-      background: url('furni/images/P3.jpg');
+      background: url('furni/images/P3.webp');
     ">
   <div>
     <h1 class="text-white">About Us</h1>
@@ -26,7 +26,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-lg-6">
-        <h2 class="section-title">Why Choose Us</h2>
+        <h2 class="section-title">About Us</h2>
         <p>
           At our business, we take great pride in providing a variety of laminate services to our clients. From product
           selection through installation and beyond, our aim is to offer first-rate service and assistance.
@@ -99,8 +99,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
       <div class="col-lg-5">
         <div class="img-wrap d-flex justify-content-center align-items-center flex-column flex-wrap gap-5">
-          <img src="furni/images/aboutus1.jpg" alt="Image" class="img-fluid w-75" />
-          <img src="furni/images/aboutus2.jpg" alt="Image" class="img-fluid w-75" />
+          <img src="furni/images/aboutus1.webp" alt="Image" class="img-fluid w-75" />
+          <img src="furni/images/aboutus2.webp" alt="Image" class="img-fluid w-75" />
         </div>
       </div>
     </div>

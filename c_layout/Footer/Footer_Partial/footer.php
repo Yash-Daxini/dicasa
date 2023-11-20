@@ -139,5 +139,22 @@ echo "
       >
     </div>
   </footer>
+  <script>
+        document.getElementById('whatsappForm').addEventListener('submit', function (e) {
+          e.preventDefault(); // Prevent the default form submission
+    
+          // Get the input value
+          var inputText = document.getElementById('whatsappInput').value;
+    
+          // Encode the input text for use in the URL
+          var encodedText = encodeURIComponent(inputText);
+    
+          // Construct the WhatsApp URL
+          var whatsappURL = 'https://api.whatsapp.com/send/?phone=%2B919662578987&text=' + encodedText + '&type=phone_number&app_absent=0';
+    
+          // Redirect to the WhatsApp URL
+          window.open(whatsappURL, '_blank');
+        });
+      </script>F
     ";
 ?>

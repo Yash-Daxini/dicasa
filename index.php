@@ -17,7 +17,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     data-custom-next="#swiper-next" data-custom-slide-effect="interLeaveEffect">
     <div class="swiper-wrapper">
       <div class="swiper-slide bg-gray-dark">
-        <div class="slide-inner" style="background-image: url(furni/images/SliderImg1.jpg)">
+        <div class="slide-inner" style="background-image: url(furni/images/SliderImg1.webp)">
           <div class="swiper-slide-caption">
             <div class="container">
               <h1 data-caption-animate="fadeInUpSmall">
@@ -35,7 +35,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         </div>
       </div>
       <div class="swiper-slide bg-gray-dark">
-        <div class="slide-inner" style="background-image: url(furni/images/SliderImg2.jpg)">
+        <div class="slide-inner" style="background-image: url(furni/images/SliderImg2.webp)">
           <div class="swiper-slide-caption">
             <div class="container">
               <h1 class="" data-caption-animate="fadeInUpSmall">
@@ -54,7 +54,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         </div>
       </div>
       <div class="swiper-slide bg-gray-dark">
-        <div class="slide-inner" style="background-image: url(furni/images/Slider3.jpg)">
+        <div class="slide-inner" style="background-image: url(furni/images/Slider3.webp)">
           <div class="swiper-slide-caption">
             <div class="container">
               <h1 data-caption-animate="fadeInUpSmall">
@@ -102,7 +102,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
             <img loading="lazy" style="height: 300px" class="img-fluid productImages"
-              src="https://kingdomceramic.com/assets/img/tilels/photo_2023-08-14_20-46-398.jpg" alt="Residential" />
+              src="furni/images/Product1.webp" alt="Residential" />
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Porcelain</h5>
@@ -118,7 +118,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
             <img loading="lazy" style="height: 300px" class="img-fluid productImages"
-              src="https://kingdomceramic.com/assets/img/tilels/photo_2023-08-14_20-46-29.jpg" alt="Commercial" />
+              src="furni/images/Product2.webp" alt="Commercial" />
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Big Slab</h5>
@@ -154,7 +154,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
             <img loading="lazy" style="height: 300px" class="img-fluid productImages"
-              src="https://kingdomceramic.com/assets/img/tilels/OUTDOOR-TILES.webp" alt="Residential" />
+              src="furni/images/Product4.webp" alt="Residential" />
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Outdoor Tiles</h5>
@@ -263,8 +263,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
       <div class="col-lg-5">
         <div class="img-wrap">
-          <img src="furni/images/P 1.jpg" alt="Image" class="img-fluid w-100" />
-          <!-- <img src="furni/images/P8.jpg" alt="Image" class="img-fluid w-75" /> -->
+          <img src="furni/images/P 1.webp" alt="Image" class="img-fluid w-100" />
+          <!-- <img src="furni/images/P8.webp" alt="Image" class="img-fluid w-75" /> -->
         </div>
       </div>
     </div>
@@ -277,13 +277,13 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       <div class="col-lg-7 mb-5 mb-lg-0">
         <div class="imgs-grid">
           <div class="grid grid-1">
-            <img src="furni/images/P5.jpg" alt="Untree.co" />
+            <img src="furni/images/wehelpImg1.webp" alt="Untree.co" />
           </div>
           <div class="grid grid-2">
-            <img src="furni/images/P6.jpg" alt="Untree.co" />
+            <img src="furni/images/wehelpImg2.webp" alt="Untree.co" />
           </div>
           <div class="grid grid-3">
-            <img src="furni/images/P7.jpg" alt="Untree.co" />
+            <img src="furni/images/wehelpImg3.webp" alt="Untree.co" />
           </div>
         </div>
       </div>

@@ -43,7 +43,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 </style>
 
 <div class="hero heroBackgroundImageDiv d-flex justify-content-center align-items-center" style="
-        background: url('furni/images/packing details.jpg');
+        background: url('furni/images/packing details.webp');
       ">
   <div>
     <h1 class="text-white">Packing-Details</h1>
