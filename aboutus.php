@@ -18,7 +18,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 </div> -->
 <div class="d-flex justify-content-center align-items-center">
   <div>
-    <h1 class="m-5 text-secondary-emphasis fs-3">About Us</h1>
+    <h2 class="m-5 text-secondary-emphasis">About Us</h2>
   </div>
 </div>
 
@@ -108,7 +108,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 </div>
 
 <div class="container-fluid text-center">
-  <h1 class="mb-5 text-secondary-emphasis fs-3">Our Strength</h1>
+  <h2 class="mb-5 text-secondary-emphasis">Our Strength</h2>
   <div class="d-flex justify-content-center align-items-center flex-wrap gap-5 mb-5">
     <div class="smallCardForAboutUS shadow-lg p-3 mb-5 rounded">
       <h5 class="fw-bold m-3">D</h5>
@@ -138,7 +138,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 </div>
 
 <div class="container text-center">
-  <h1 class="mb-5 text-secondary-emphasis fs-3">Our Goal</h1>
+  <h2 class="mb-5 text-secondary-emphasis">Our Goal</h2>
   <div class="goalDiv d-flex justify-content-center align-items-center gap-5 flex-wrap mx-2">
     <div class="cardForGoal shadow-lg p-3 mb-5 rounded">
       <div class="icon shadow-lg p-3 mb-5">
