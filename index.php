@@ -17,7 +17,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     data-custom-next="#swiper-next" data-custom-slide-effect="interLeaveEffect">
     <div class="swiper-wrapper">
       <div class="swiper-slide bg-gray-dark">
-        <div class="slide-inner" style="background-image: url(furni/images/slider1.jpg)">
+        <div class="slide-inner" style="background-image: url(furni/images/SliderImg1.jpg)">
           <div class="swiper-slide-caption">
             <div class="container">
               <h1 data-caption-animate="fadeInUpSmall">
@@ -35,13 +35,13 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         </div>
       </div>
       <div class="swiper-slide bg-gray-dark">
-        <div class="slide-inner" style="background-image: url(furni/images/slider2.jpg)">
+        <div class="slide-inner" style="background-image: url(furni/images/SliderImg2.jpg)">
           <div class="swiper-slide-caption">
             <div class="container">
-              <h1 class="text-muted" data-caption-animate="fadeInUpSmall">
+              <h1 class="" data-caption-animate="fadeInUpSmall">
                 Capturing Craftsmanship
               </h1>
-              <p class="big text-muted" style="max-width: 520px" data-caption-animate="fadeInRightSmall"
+              <p class="big" style="max-width: 520px" data-caption-animate="fadeInRightSmall"
                 data-caption-delay="300">
                 Discover the artistry behind every piece. Our skilled craftsmen bring passion and precision to create
                 ceramic masterpieces that redefine elegance.
