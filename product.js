@@ -11,7 +11,6 @@ let mapForFinish = [];
 let apiURL = "https://kingdomceramic.com/ad_kingdomceramic/API/SizeApi";
 const apiKey = "ADMIN123123";
 
-// Define the API key in a JSON object
 let data = {
   apikey: apiKey,
   TypeUrl: "",
@@ -21,7 +20,6 @@ let data = {
   LookUrl: "",
 };
 
-// Fetch options
 let options = {
   method: "POST",
   headers: {

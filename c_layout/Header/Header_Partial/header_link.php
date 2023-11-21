@@ -21,7 +21,6 @@ echo "
   />
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN' crossorigin='anonymous'>
     <link rel='stylesheet' type='text/css' href='//use.fontawesome.com/releases/v5.7.2/css/all.css'>
-    <!--Start of Tawk.to Script-->
     <script type='text/javascript'>
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){
@@ -33,6 +32,5 @@ echo "
     s0.parentNode.insertBefore(s1,s0);
     })();
     </script>
-<!--End of Tawk.to Script-->
     ";
 ?>
