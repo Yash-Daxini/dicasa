@@ -115,7 +115,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       <div class="col-lg-4 mb-4 mt-4 mt-lg-0">
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
-            <img loading="lazy" style="height: 300px" class="img-fluid productImages" src="furni/images/Product2.webp"
+            <img loading="lazy" style="height: 300px" class="img-fluid productImages" src="furni/images/slab_tiles_home_page.webp"
               alt="Commercial" />
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
@@ -151,7 +151,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       <div class="col-lg-6 mt-4 mt-lg-0">
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
-            <img loading="lazy" style="height: 300px" class="img-fluid productImages" src="furni/images/Product4.webp"
+            <img loading="lazy" style="height: 300px;width:400px" class="img-fluid productImages" src="furni/images/outdoor_tiles _home_page.webp"
               alt="Residential" />
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
