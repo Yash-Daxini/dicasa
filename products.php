@@ -93,6 +93,28 @@ include_once __DIR__ . '/c_layout/Header/header.php';
   </div>
 </div>
 
+<script>
+
+  window.addEventListener("scroll", () => {
+    var elementVisible = 150;
+    let cardForGoals = document.querySelectorAll(".card");
+    // console.warn(cardForGoals)
+    cardForGoals.forEach(element => {
+      let windowHeight = window.innerHeight;
+      let elementTop = element.getBoundingClientRect().top;
+      if (elementTop < windowHeight - elementVisible) {
+        element.classList.add("animate__animated");
+        element.classList.add("animate__backInDown");
+      } else {
+        element.classList.remove("animate__animated");
+        element.classList.remove("animate__backInDown");
+      }
+    });
+
+  })
+
+</script>
+
 <script src="product.js"></script>
 
 <?php

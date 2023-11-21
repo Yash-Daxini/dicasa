@@ -140,7 +140,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 <div class="container text-center">
   <h2 class="mb-5 text-secondary-emphasis">Our Goal</h2>
   <div class="goalDiv d-flex justify-content-center align-items-center gap-5 flex-wrap mx-2">
-    <div class="cardForGoal shadow-lg p-3 mb-5 rounded animate__animated animate__backInLeft">
+    <div class="cardForGoal shadow-lg p-3 mb-5 rounded">
       <div class="icon shadow-lg p-3 mb-5">
         <ion-icon name="eye-outline"></ion-icon>
       </div>
@@ -149,7 +149,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         commitment to excellence, integrity, and customer satisfaction.
       </div>
     </div>
-    <div class="cardForGoal shadow-lg p-3 mb-5 rounded animate__animated animate__backInRight">
+    <div class="cardForGoal shadow-lg p-3 mb-5 rounded">
       <div class="icon shadow-lg p-3 mb-5">
         <ion-icon name="medal-outline"></ion-icon>
       </div>
@@ -162,6 +162,34 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 </div>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script>
+
+  window.addEventListener("scroll", () => {
+    var elementVisible = 150;
+    let cardForGoals = document.querySelectorAll(".cardForGoal");
+    let firstGoalDiv = cardForGoals[0];
+    let secondGoalDiv = cardForGoals[1];
+    let windowHeight = window.innerHeight;
+    let element1Top = firstGoalDiv.getBoundingClientRect().top;
+    let element2Top = secondGoalDiv.getBoundingClientRect().top;
+    console.warn(element1Top);
+    console.warn(windowHeight);
+    if (element1Top < windowHeight - elementVisible) {
+      firstGoalDiv.classList.add("animate__animated");
+      secondGoalDiv.classList.add("animate__animated");
+      firstGoalDiv.classList.add("animate__backInLeft");
+      secondGoalDiv.classList.add("animate__backInRight");
+    } else {
+      firstGoalDiv.classList.remove("animate__animated");
+      secondGoalDiv.classList.remove("animate__animated");
+      firstGoalDiv.classList.remove("animate__backInLeft");
+      secondGoalDiv.classList.remove("animate__backInRight");
+    }
+  })
+
+</script>
+
 <?php
 include_once __DIR__ . '/c_layout/Footer/footer.php';
 ?>
