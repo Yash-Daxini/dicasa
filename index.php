@@ -115,8 +115,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       <div class="col-lg-4 mb-4 mt-4 mt-lg-0">
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
-            <img loading="lazy" style="height: 300px" class="img-fluid productImages" src="furni/images/slab_tiles_home_page.webp"
-              alt="Commercial" />
+            <img loading="lazy" style="height: 300px" class="img-fluid productImages"
+              src="furni/images/slab_tiles_home_page.webp" alt="Commercial" />
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Big Slab</h5>
@@ -151,8 +151,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       <div class="col-lg-6 mt-4 mt-lg-0">
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
-            <img loading="lazy" style="height: 300px;width:400px" class="img-fluid productImages" src="furni/images/outdoor_tiles _home_page.webp"
-              alt="Residential" />
+            <img loading="lazy" style="height: 300px;width:400px" class="img-fluid productImages"
+              src="furni/images/outdoor_tiles _home_page.webp" alt="Residential" />
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Outdoor Tiles</h5>
@@ -188,7 +188,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
   <!-- end of .container-->
 </section>
 
-<div class="why-choose-section">
+<div class="why-choose-section mt-5">
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-lg-6">
@@ -261,7 +261,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
       <div class="col-lg-5">
         <div class="img-wrap">
-          <img src="furni/images/P 1.webp" alt="Image" class="img-fluid w-100" />
+          <img src="furni/images/ZAYD TERRAZO EDITED ART.webp" alt="Image" class="img-fluid w-100" />
           <!-- <img src="furni/images/P8.webp" alt="Image" class="img-fluid w-75" /> -->
         </div>
       </div>
