@@ -63,15 +63,15 @@ echo "
             <h4 class='text-light mb-2'>Useful links</h4>
             <ul>
               <li class='m-2'>
-                <i class='bi bi-chevron-right'></i><a href='index.php'>Home</a>
+                <i class='bi bi-chevron-right'></i><a href='Home'>Home</a>
               </li>
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
-                ><a href='aboutus.php'>About Us</a>
+                ><a href='About'>About Us</a>
               </li>
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
-                ><a href='contact.php'>Contact Us</a>
+                ><a href='Contact'>Contact Us</a>
               </li>
             </ul>
           </div>
@@ -80,27 +80,27 @@ echo "
             <ul>
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
-                ><a href='products.php'>PORCELAIN TILES</a>
+                ><a href='Products'>PORCELAIN TILES</a>
               </li>
 
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
-                ><a href='products.php'>PORCELAIN SLABS</a>
+                ><a href='Products'>PORCELAIN SLABS</a>
               </li>
 
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
-                ><a href='products.php'>WALL TILES</a>
+                ><a href='Products'>WALL TILES</a>
               </li>
 
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
-                ><a href='products.php'>OUTDOOR TILES</a>
+                ><a href='Products'>OUTDOOR TILES</a>
               </li>
 
               <li class='m-2'>
                 <i class='bi bi-chevron-right'></i
-                ><a href='products.php'
+                ><a href='Products'
                   >SPC-LVT VINYL FLOORING</a
                 >
               </li>

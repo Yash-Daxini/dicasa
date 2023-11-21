@@ -18,7 +18,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 </div> -->
 <div class="d-flex justify-content-center align-items-center">
   <div>
-    <h2 class="m-5 text-secondary-emphasis">About Us</h2>
+    <h2 class="m-5 text-secondary-emphasis animate__animated animate__backInLeft">About Us</h2>
   </div>
 </div>
 
@@ -26,7 +26,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-lg-6">
-        <h2 class="section-title">About Us</h2>
+        <!-- <h2 class="section-title">About Us</h2> -->
         <p>
           At our business, we take great pride in providing a variety of laminate services to our clients. From product
           selection through installation and beyond, our aim is to offer first-rate service and assistance.
@@ -140,7 +140,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 <div class="container text-center">
   <h2 class="mb-5 text-secondary-emphasis">Our Goal</h2>
   <div class="goalDiv d-flex justify-content-center align-items-center gap-5 flex-wrap mx-2">
-    <div class="cardForGoal shadow-lg p-3 mb-5 rounded">
+    <div class="cardForGoal shadow-lg p-3 mb-5 rounded animate__animated animate__backInLeft">
       <div class="icon shadow-lg p-3 mb-5">
         <ion-icon name="eye-outline"></ion-icon>
       </div>
@@ -149,7 +149,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         commitment to excellence, integrity, and customer satisfaction.
       </div>
     </div>
-    <div class="cardForGoal shadow-lg p-3 mb-5 rounded">
+    <div class="cardForGoal shadow-lg p-3 mb-5 rounded animate__animated animate__backInRight">
       <div class="icon shadow-lg p-3 mb-5">
         <ion-icon name="medal-outline"></ion-icon>
       </div>

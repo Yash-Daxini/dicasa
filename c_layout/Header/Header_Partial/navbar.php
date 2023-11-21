@@ -5,7 +5,7 @@ echo "
       class='navbar custom-navbar navbar-expand-md justify-content-sm-between'
     >
       <div class='container-xl'>
-        <a class='navbar-brand justify-content-center' href='index.php'
+        <a class='navbar-brand justify-content-center' href='Home'
           ><img src='furni/images/DICASA CERAMICA LOGO.png' class='img-fluid'
         /></a>
         <button
@@ -22,15 +22,15 @@ echo "
 
         <div class='collapse navbar-collapse' id='navbarsFurni'>
           <ul class='custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0'>
-            <li class='nav-item "?> <?php if($page == "index.php") echo "active" ?> 
-            <?php echo "'> <a class='nav-link' href='index.php'>Home</a>
+            <li class='nav-item "?> <?php if($page == "Home") echo "active" ?> 
+            <?php echo "'> <a class='nav-link' href='Home'>Home</a>
             </li>
-            <li class='nav-item "?> <?php if($page == "aboutus.php") echo "active" ?> 
-            <?php echo "'><a class='nav-link' href='aboutus.php'>About us</a></li>
-            <li class='nav-item "?> <?php if($page == "products.php"||$page == "product-details.php" ) echo "active" ?> 
-            <?php echo "'><a class='nav-link' href='products.php'>Products</a></li>
-            <li class='nav-item "?> <?php if($page == "catalouge.php") echo "active" ?> 
-            <?php echo "'><a class='nav-link' href='catalouge.php'>E-Catalouge</a></li>
+            <li class='nav-item "?> <?php if($page == "About") echo "active" ?> 
+            <?php echo "'><a class='nav-link' href='About'>About us</a></li>
+            <li class='nav-item "?> <?php if($page == "Products"||$page == "product-details.php" ) echo "active" ?> 
+            <?php echo "'><a class='nav-link' href='Products'>Products</a></li>
+            <li class='nav-item "?> <?php if($page == "Catalouge") echo "active" ?> 
+            <?php echo "'><a class='nav-link' href='Catalouge'>E-Catalouge</a></li>
             <li class='nav-item dropdown'>
               <a
               class='nav-link dropdown-toggle' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'
@@ -43,9 +43,9 @@ echo "
                     >Products-Details</a
                   >
                 </li> -->
-                <li class='nav-item "?> <?php if($page == "technical-specification.php") echo "active" ?> 
+                <li class='nav-item "?> <?php if($page == "Technical-Specification") echo "active" ?> 
                 <?php echo "'>
-                  <a class='nav-link' href='technical-specification.php'
+                  <a class='nav-link' href='Technical-Specification'
                     >Technical-Specification</a
                   >
                 </li>
@@ -54,16 +54,16 @@ echo "
                     >Tiles-Calculator</a
                   >
                 </li> -->
-                <li class='nav-item "?> <?php if($page == "packing-details.php") echo "active" ?> 
+                <li class='nav-item "?> <?php if($page == "Packing-Details") echo "active" ?> 
                 <?php echo "'>
-                  <a class='nav-link' href='packing-details.php'
+                  <a class='nav-link' href='Packing-Details'
                     >Packing-Details</a
                   >
                 </li>
               </ul>
             </li>
-            <li class='nav-item "?> <?php if($page == "contact.php") echo "active" ?> 
-            <?php echo "'><a class='nav-link' href='contact.php'>Contact us</a></li>
+            <li class='nav-item "?> <?php if($page == "Contact") echo "active" ?> 
+            <?php echo "'><a class='nav-link' href='Contact'>Contact us</a></li>
           </ul>
         </div>
       </div>

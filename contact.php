@@ -19,7 +19,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
 <div class="d-flex justify-content-center align-items-center">
   <div>
-    <h1 class="m-5 text-secondary-emphasis fs-3">Contact Us</h1>
+    <h1 class="m-5 text-secondary-emphasis fs-3 animate__animated animate__backInLeft">Contact Us</h1>
   </div>
 </div>
 
@@ -27,7 +27,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
   <div class="my-5 d-flex justify-content-center align-items-center flex-wrap gap-5">
     <!-- <div class="col-md-12"> -->
-    <div class="">
+    <div class="animate__animated animate__backInLeft">
       <div class="p-2 contactUsDivs">
         <div class="service no-shadow align-items-center link horizontal d-flex active" data-aos="fade-left"
           data-aos-delay="0">
@@ -69,7 +69,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         <!-- /.service -->
       </div>
     </div>
-    <div class="">
+    <div class="animate__animated animate__backInRight">
       <div class="p-2 contactUsDivs">
         <div class="service no-shadow align-items-center link horizontal d-flex active" data-aos="fade-left"
           data-aos-delay="0">
