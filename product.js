@@ -292,7 +292,7 @@ const displayAllProducts = () => {
               <a class="text-decoration-none text-dark" href='product-details.php?&ProductUrl=${element.ProductUrl}'>
               <div class="d-flex justify-content-center align-items-center productCard overflow-hidden border-light text-center shadow-lg mb-3 flex-column flex-wrap">
                 <img src="https://kingdomceramic.com/Images/product/${element.ImagePath}" alt=""
-                  class="productImage" style="transform: rotate(0deg)" />
+                  class="productImage" style="transform: rotate(0deg)" loading="lazy"/>
                 <div class="card-body my-2">
                   <p class="card-text fw-medium">${element.ProductName}</p>
                 </div>
@@ -336,7 +336,7 @@ const filteredData = () => {
             style="transform: translate(0px, 0px); opacity: 1">
             <div class="d-flex justify-content-center align-items-center productCard overflow-hidden border-light text-center shadow-lg mb-3 flex-column flex-wrap">
               <img src="https://kingdomceramic.com/Images/product/${element.ImagePath}" alt=""
-                class="card-img-top productImage tilesImg img-fuild" style="transform: rotate(0deg)" />
+                class="card-img-top productImage tilesImg img-fuild" style="transform: rotate(0deg)" loading="lazy"/>
               <div class="card-body my-2">
                 <p class="card-text fw-medium">${element.ProductName}</p>
               </div>

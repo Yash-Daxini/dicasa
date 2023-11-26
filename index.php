@@ -100,7 +100,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
             <img loading="lazy" style="height: 300px" class="img-fluid productImages" src="furni/images/Product1.webp"
-              alt="Residential" />
+              alt="Residential" loading="lazy"/>
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Porcelain</h5>
@@ -116,7 +116,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
             <img loading="lazy" style="height: 300px" class="img-fluid productImages"
-              src="furni/images/slab_tiles_home_page.webp" alt="Commercial" />
+              src="furni/images/slab_tiles_home_page.webp" alt="Commercial" loading="lazy"/>
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Big Slab</h5>
@@ -135,7 +135,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
             <img loading="lazy" style="height: 300px" class="img-fluid productImages" src="furni/images/Product3.webp"
-              alt="Hospitality" />
+              alt="Hospitality" loading="lazy"/>
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Wall-Tiles</h5>
@@ -152,7 +152,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
             <img loading="lazy" style="height: 300px;width:400px" class="img-fluid productImages"
-              src="furni/images/outdoor_tiles _home_page.webp" alt="Residential" />
+              src="furni/images/outdoor_tiles _home_page.webp" alt="Residential" loading="lazy"/>
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">Outdoor Tiles</h5>
@@ -169,7 +169,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
         <div class="row align-items-center">
           <div class="col-md-6 col-lg-12">
             <img loading="lazy" style="height: 300px" class="img-fluid productImages" src="furni/images/Product5.webp"
-              alt="Hospitality" />
+              alt="Hospitality" loading="lazy"/>
           </div>
           <div class="col-md-6 col-lg-12 text-md-start text-lg-center">
             <h5 class="ls text-uppercase mt-4 mb-3">
@@ -198,7 +198,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           <div class="col-6 col-md-6">
             <div class="feature">
               <div class="icon">
-                <img src="furni/images/truck.svg" alt="Image" class="imf-fluid" />
+                <img src="furni/images/truck.svg" alt="Image" class="img-fluid" loading="lazy"/>
               </div>
               <h3>Unrivaled Quality</h3>
               <p>
@@ -213,7 +213,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           <div class="col-6 col-md-6">
             <div class="feature">
               <div class="icon">
-                <img src="furni/images/bag.svg" alt="Image" class="imf-fluid" />
+                <img src="furni/images/bag.svg" alt="Image" class="imf-fluid" loading="lazy"/>
               </div>
               <h3>Versatility in Design</h3>
               <p>
@@ -224,45 +224,12 @@ include_once __DIR__ . '/c_layout/Header/header.php';
               </p>
             </div>
           </div>
-
-          <!-- <div class="col-6 col-md-6">
-            <div class="feature">
-              <div class="icon">
-                <img src="furni/images/support.svg" alt="Image" class="imf-fluid" />
-              </div>
-              <h3>Innovative Solutions for Every Space</h3>
-              <p>
-                No two spaces are alike, and our ceramics recognize and adapt to this diversity. From compact urban
-                apartments to expansive suburban homes, our range of ceramic tiles, countertops, and decor pieces are
-                designed to cater to the specific needs and dimensions of your space, ensuring a tailored solution for
-                every room.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-6 col-md-6">
-            <div class="feature">
-              <div class="icon">
-                <img src="furni/images/return.svg" alt="Image" class="imf-fluid" />
-              </div>
-              <div class="icon">
-                <img src="furni/images/return.svg" alt="Image" class="imf-fluid" />
-              </div>
-              <h3>Customer Satisfaction Guarantee</h3>
-              <p>
-                Your satisfaction is our utmost priority. We stand behind the quality and design of our ceramics,
-                offering a customer satisfaction guarantee. Experience peace of mind knowing that your choice in our
-                ceramics is backed by a commitment to delivering excellence and ensuring your complete contentment.
-              </p>
-            </div>
-          </div> -->
         </div>
       </div>
 
       <div class="col-lg-5">
         <div class="img-wrap">
-          <img src="furni/images/ZAYD TERRAZO EDITED ART.webp" alt="Image" class="img-fluid w-100" />
-          <!-- <img src="furni/images/P8.webp" alt="Image" class="img-fluid w-75" /> -->
+          <img src="furni/images/ZAYD TERRAZO EDITED ART.webp" alt="Image" class="img-fluid w-100" loading="lazy"/>
         </div>
       </div>
     </div>
@@ -275,13 +242,13 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       <div class="col-lg-7 mb-5 mb-lg-0">
         <div class="imgs-grid">
           <div class="grid grid-1">
-            <img src="furni/images/wehelpImg1.webp" alt="Untree.co" />
+            <img src="furni/images/wehelpImg1.webp" alt="Untree.co" loading="lazy"/>
           </div>
           <div class="grid grid-2">
-            <img src="furni/images/wehelpImg2.webp" alt="Untree.co" />
+            <img src="furni/images/wehelpImg2.webp" alt="Untree.co" loading="lazy"/>
           </div>
           <div class="grid grid-3">
-            <img src="furni/images/wehelpImg3.webp" alt="Untree.co" />
+            <img src="furni/images/wehelpImg3.webp" alt="Untree.co" loading="lazy"/>
           </div>
         </div>
       </div>

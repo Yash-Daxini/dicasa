@@ -66,7 +66,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           <div class="col-6 col-md-6">
             <div class="feature">
               <div class="icon">
-                <img src="furni/images/support.svg" alt="Image" class="imf-fluid" />
+                <img src="furni/images/support.svg" alt="Image" class="imf-fluid" loading="lazy"/>
               </div>
               <h3>Innovative Solutions for Every Space</h3>
               <p>
@@ -81,7 +81,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
           <div class="col-6 col-md-6">
             <div class="feature">
               <div class="icon">
-                <img src="furni/images/return.svg" alt="Image" class="imf-fluid" />
+                <img src="furni/images/return.svg" alt="Image" class="imf-fluid" loading="lazy"/>
               </div>
               <div class="icon">
                 <img src="furni/images/return.svg" alt="Image" class="imf-fluid" />
@@ -99,8 +99,8 @@ include_once __DIR__ . '/c_layout/Header/header.php';
 
       <div class="col-lg-5">
         <div class="img-wrap d-flex justify-content-center align-items-center flex-column flex-wrap gap-5">
-          <img src="furni/images/aboutus1.webp" alt="Image" class="img-fluid w-75" />
-          <img src="furni/images/aboutus2.webp" alt="Image" class="img-fluid w-75" />
+          <img src="furni/images/aboutus1.webp" alt="Image" class="img-fluid w-75" loading="lazy"/>
+          <img src="furni/images/aboutus2.webp" alt="Image" class="img-fluid w-75" loading="lazy"/>
         </div>
       </div>
     </div>

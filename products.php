@@ -29,7 +29,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
     <div class="col-lg-3 col-md-4 col-sm-12">
       <div class="card border-light shadow-lg mb-3" style="">
         <div class="card-header text-center d-flex justify-content-start">
-          <img class="p-2" style="width:50px" src="furni/images/edit.webp">
+          <img class="p-2" style="width:50px" src="furni/images/edit.webp" loading="lazy">
           <h4 class="mt-2 mx-2">Type</h4>
           <i class="fas fa-caret-down fa-lg mx-1 mt-3"></i>
         </div>
@@ -40,7 +40,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       </div>
       <div class="card border-light shadow-lg mb-3" style="">
         <div class="card-header text-center d-flex justify-content-start">
-          <img class="p-2" style="width:50px" src="furni/images/edit.webp">
+          <img class="p-2" style="width:50px" src="furni/images/edit.webp" loading="lazy">
           <h4 class="mt-2 mx-2">Size</h4>
           <i class="fas fa-caret-down fa-lg mx-1 mt-3"></i>
         </div>
@@ -51,7 +51,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       </div>
       <div class="card border-light shadow-lg mb-3" style="">
         <div class="card-header text-center d-flex justify-content-start">
-          <img class="p-2" style="width:50px" src="furni/images/edit.webp">
+          <img class="p-2" style="width:50px" src="furni/images/edit.webp" loading="lazy">
           <h4 class="mt-2 mx-2">Finish</h4>
           <i class="fas fa-caret-down fa-lg mx-1 mt-3"></i>
         </div>
@@ -62,7 +62,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       </div>
       <div class="card border-light shadow-lg mb-3" style="">
         <div class="card-header text-center d-flex justify-content-start">
-          <img class="p-2" style="width:50px" src="furni/images/edit.webp">
+          <img class="p-2" style="width:50px" src="furni/images/edit.webp" loading="lazy">
           <h4 class="mt-2 mx-2">Space</h4>
           <i class="fas fa-caret-down fa-lg mx-1 mt-3"></i>
         </div>
@@ -73,7 +73,7 @@ include_once __DIR__ . '/c_layout/Header/header.php';
       </div>
       <div class="card border-light shadow-lg mb-3" style="">
         <div class="card-header text-center d-flex justify-content-start">
-          <img class="p-2" style="width:50px" src="furni/images/edit.webp">
+          <img class="p-2" style="width:50px" src="furni/images/edit.webp" loading="lazy">
           <h4 class="mt-2 mx-2">Look</h4>
           <i class="fas fa-caret-down fa-lg mx-1 mt-3"></i>
         </div>

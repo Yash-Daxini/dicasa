@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
           allProductsDiv.innerHTML += `
             <div class="d-flex justify-content-center gap-5 align-items-center flex-wrap">
                 <div class="card border-dark shadow-lg mb-3 productDetailsDivImg">
-                    <img src="https://kingdomceramic.com/Images/product/${element.ImagePath}" class="card-img-top" alt="Can't Load Image">
+                    <img src="https://kingdomceramic.com/Images/product/${element.ImagePath}" class="card-img-top" alt="Can't Load Image" loading="lazy">
                 </div>
                 <div class="card border-0 productDetailsDiv shadow-lg text-center p-4" style=" font-size:20px">
                     <h5 class="card-text fw-900">${element.ProductName}</h5>
